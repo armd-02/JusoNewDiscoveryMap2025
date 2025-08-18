@@ -1,0 +1,33 @@
+{
+    "list": {
+        "columns": {
+            "common": [
+                {
+                    "id": "osmid",
+                    "hidden": true
+                },
+                {
+                    "id": "category",
+                    "name": "Category",
+                    "hidden": false,
+                    "width": "40%"
+                },
+                {
+                    "id": "title",
+                    "name": "name",
+                    "width": "60%"
+                }
+            ],
+            "poiFields": [
+                "id",
+                "category",
+                "name"
+            ],
+            "actFields": [ //#付きはOSMタグ、ただし#categoryのみ内部判定結果
+                "#id", // 最初の列は#id固定
+                "category", // listTableのフィルタ都合上。この位置にcategoryが必要
+                "title"
+            ]
+        }
+    }
+}
