@@ -174,7 +174,7 @@ class OSMbasic {
                 let id = tags.id;
                 wikimq.push([wikim, id]);
                 html += `<div class="col-12 mt-3 mb-3 text-center"><img class="thumbnail" onclick="modalActs.viewImage(this)" id="${id}"><span id="${id}-copyright"></span></div>`;
-                wikimq.forEach((q) => basic.getWikiMediaImage(q[0], Conf.etc.modalThumbWidth, q[1])); // WikiMedia Image 遅延読み込み
+                wikimq.forEach((q) => basic.getWikiMediaImage(q[0], Conf.thumbnail.modalThumbWidth, q[1])); // WikiMedia Image 遅延読み込み
                 elements++;
             }
         }

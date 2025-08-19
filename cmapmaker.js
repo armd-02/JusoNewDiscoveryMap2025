@@ -157,8 +157,8 @@ class CMapMaker {
 
     // 画面内のActivity画像を表示させる(view: true=表示)
     makeImages(view) {
-        let LL = mapLibre.get_LL(true);
         if (view) {
+            let LL = mapLibre.get_LL(true);
             let acts = poiCont.adata.filter(act => { return geoCont.checkInner(act.lnglat, LL) && act.picture_url1 !== "" });
             acts = acts.map(act => {
                 let urls = []
@@ -239,7 +239,7 @@ class CMapMaker {
                         if (window.getSelection) window.getSelection().removeAllRanges()
                         this.viewArea()	        // 入手したgeoJsonを追加
                         this.viewPoi(targets)	// in targets
-                        this.makeImages(true)
+                        this.makeImages(Conf.thumbnail.use)
                         console.log("updateView End.")
                         resolve({ "update": true })
                         break

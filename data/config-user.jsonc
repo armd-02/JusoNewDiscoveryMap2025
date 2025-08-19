@@ -62,7 +62,6 @@
         "poiZoom": {
             // アイコンの前後位置は後ろの方が手前になる
             "activity": 7,
-            "bicycle_rental": 7,
             "green_area": 12
         },
         "editZoom": {
@@ -73,11 +72,14 @@
             "green_area": 12
         }
     },
+    "thumbnail": {
+        "use": true,
+        "slideThumbWidth": "240",
+        "modalThumbWidth": "800"
+    },
     "etc": {
         "localSave": "", // 訪問済み機能フラグ(有効時はアプリ名、無効時は"")
         "editMode": false, // 編集メニューの表示/非表示
-        "slideThumbWidth": "240",
-        "modalThumbWidth": "800",
         "splashUrl": "./image/ogimage.jpg",
         "loadingUrl": "./image/loading.gif"
     },
