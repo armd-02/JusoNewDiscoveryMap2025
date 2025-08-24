@@ -17,7 +17,7 @@
                 "memo": {
                     "glot": "act_memo",
                     "type": "textarea",
-                    "gsheet": "body"
+                    "gsheet": "memo"
                 },
                 "detail_url": {
                     "glot": "act_detail_url",

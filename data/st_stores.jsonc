@@ -1,0 +1,1813 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.8 e802775f",
+    "osm3s": {
+        "timestamp_osm_base": "2025-08-20T04:18:02Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 1996735563,
+            "lat": 34.7226839,
+            "lon": 135.4903404,
+            "timestamp": "2025-08-18T07:49:17Z",
+            "version": 8,
+            "changeset": 170600790,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "check_date": "2024-07-07",
+                "contact:instagram": "mory.291",
+                "contact:twitter": "moryliu39",
+                "cuisine": "chinese",
+                "name": "手作り餃子 橋郷館",
+                "website": "https://www.morymoryliu.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2336851451,
+            "lat": 34.7195895,
+            "lon": 135.4821959,
+            "timestamp": "2023-08-18T02:59:52Z",
+            "version": 2,
+            "changeset": 140036996,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "tags": {
+                "amenity": "pub",
+                "check_date": "2023-08-18",
+                "level": "0",
+                "name": "酒蔵富五郎",
+                "opening_hours": "Mo-Fr 15:00-23:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2336875774,
+            "lat": 34.7191604,
+            "lon": 135.4800561,
+            "timestamp": "2023-08-28T02:21:19Z",
+            "version": 4,
+            "changeset": 140473183,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "cuisine": "japanese",
+                "name": "がんこ総本店",
+                "takeaway": "yes",
+                "website": "https://www.gankofood.co.jp/shop/detail/wa-jyuso",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2336894134,
+            "lat": 34.7194731,
+            "lon": 135.4790614,
+            "timestamp": "2023-08-28T02:15:16Z",
+            "version": 5,
+            "changeset": 140473093,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "contact:instagram": "kagetsudo",
+                "name": "花月堂",
+                "shop": "confectionery",
+                "website": "https://www.kagetsudo.jp/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3213122311,
+            "lat": 34.7195146,
+            "lon": 135.4845863,
+            "timestamp": "2024-07-25T05:39:50Z",
+            "version": 10,
+            "changeset": 154375917,
+            "user": "suikou",
+            "uid": 8768238,
+            "tags": {
+                "addr:block_number": "17",
+                "addr:city": "大阪市",
+                "addr:housenumber": "13",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0023",
+                "addr:province": "大阪府",
+                "addr:quarter": "十三東",
+                "addr:suburb": "淀川区",
+                "amenity": "coworking_space",
+                "contact:facebook": "https://ja-jp.facebook.com/jusocoworking/",
+                "contact:instagram": "jusocoworking",
+                "contact:twitter": "https://twitter.com/jusocoworking",
+                "contact:website": "http://juso-coworking.com/",
+                "internet_access": "wlan",
+                "level": "0",
+                "name": "JUSO Coworking",
+                "phone": "+81 6 6302 3366",
+                "source": "survey"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5768008176,
+            "lat": 34.7207863,
+            "lon": 135.4870852,
+            "timestamp": "2025-08-18T18:09:16Z",
+            "version": 3,
+            "changeset": 170634132,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:city": "大阪市",
+                "addr:postcode": "532-0023",
+                "addr:province": "大阪府",
+                "amenity": "restaurant",
+                "cuisine": "タイ",
+                "name": "Two chefs",
+                "takeaway": "yes",
+                "website": "https://www.twochefs.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5841701682,
+            "lat": 34.7209159,
+            "lon": 135.4836369,
+            "timestamp": "2023-08-28T01:44:36Z",
+            "version": 2,
+            "changeset": 140472689,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "public_bath",
+                "contact:facebook": "https://www.facebook.com/takarayu1126/",
+                "description": "炭酸温泉",
+                "level": "0",
+                "name": "宝湯",
+                "name:en": "Takarayu Tansanonsen",
+                "website": "http://1126juso.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5875259685,
+            "lat": 34.7214875,
+            "lon": 135.4832730,
+            "timestamp": "2018-09-02T07:00:27Z",
+            "version": 1,
+            "changeset": 62212160,
+            "user": "CAFEYUTTE",
+            "uid": 8768240,
+            "tags": {
+                "amenity": "cafe",
+                "name": "マイブレンド"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5875260389,
+            "lat": 34.7219646,
+            "lon": 135.4834033,
+            "timestamp": "2025-08-18T17:36:21Z",
+            "version": 3,
+            "changeset": 170632059,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "pub",
+                "contact:instagram": "yakitonnisshan",
+                "name": "焼とん にっしゃん",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5875265698,
+            "lat": 34.7221780,
+            "lon": 135.4832575,
+            "timestamp": "2025-08-18T13:29:19Z",
+            "version": 3,
+            "changeset": 170617343,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "contact:instagram": "nishikawa.kakishibu",
+                "name": "柿しぶ 大阪西川",
+                "shop": "health_food",
+                "website": "https://www.kaki-shibu.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5875311485,
+            "lat": 34.7253770,
+            "lon": 135.4882807,
+            "timestamp": "2024-11-23T04:29:42Z",
+            "version": 11,
+            "changeset": 159482417,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:city": "大阪市",
+                "addr:neighbourhood": "2-24-18",
+                "addr:postcode": "5320013",
+                "addr:province": "大阪府",
+                "addr:quarter": "木川西",
+                "addr:suburb": "淀川区",
+                "amenity": "cafe",
+                "check_date": "2024-11-23",
+                "contact:instagram": "cafe_yutte",
+                "email": "cafeyutte3@gmail.com",
+                "facebook": "https://m.facebook.com/cafeyutte",
+                "internet_access": "wlan",
+                "internet_access:fee": "customers",
+                "name": "Cafe yutte",
+                "opening_hours": "Tu-Sa 10:00-18:00",
+                "outdoor_seating": "yes",
+                "payment:cards": "no",
+                "payment:credit_cards": "no",
+                "payment:debit_cards": "no",
+                "takeaway": "yes",
+                "website": "https://peraichi.com/landing_pages/view/cafeyutte/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6984132962,
+            "lat": 34.7189499,
+            "lon": 135.4858768,
+            "timestamp": "2024-07-14T10:26:57Z",
+            "version": 6,
+            "changeset": 153924219,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:city": "大阪市",
+                "addr:neighbourhood": "1‐15‐23",
+                "addr:province": "大阪府",
+                "addr:quarter": "十三東",
+                "addr:suburb": "淀川区",
+                "name": "お豆腐の伏見屋",
+                "opening_hours": "10:00-19:00",
+                "phone": "+8180-4191-5936",
+                "shop": "deli",
+                "website": "http://www.fushimiya.co.jp/index.php"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7411045697,
+            "lat": 34.7229954,
+            "lon": 135.4853867,
+            "timestamp": "2025-08-18T16:54:53Z",
+            "version": 7,
+            "changeset": 170629386,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:city": "大阪市",
+                "addr:housenumber": "4-4-1",
+                "addr:province": "大阪府",
+                "addr:suburb": "淀が枠",
+                "amenity": "restaurant",
+                "check_date": "2024-11-23",
+                "contact:instagram": "noguchishouten",
+                "contact:twitter": "shoutenkun",
+                "facebook": "https://www.facebook.com/noguchishouten/",
+                "level": "0",
+                "name": "十三の氷屋 野口商店",
+                "phone": "+81663010749",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7412723397,
+            "lat": 34.7209764,
+            "lon": 135.4874744,
+            "timestamp": "2025-08-18T15:57:23Z",
+            "version": 4,
+            "changeset": 170625113,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:city": "大阪市",
+                "addr:neighbourhood": "1-7-14",
+                "addr:province": "大阪府",
+                "addr:quarter": "十三東",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "contact:instagram": "chappy_juso",
+                "email": "jusodego@gmail.com",
+                "name": "ちゃっぴー亭",
+                "phone": "+81663062905",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7452849269,
+            "lat": 34.7205113,
+            "lon": 135.4817975,
+            "timestamp": "2025-06-25T10:02:07Z",
+            "version": 4,
+            "changeset": 168086802,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "bar",
+                "check_date": "2023-08-19",
+                "name": "スナック島"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7461081830,
+            "lat": 34.7215235,
+            "lon": 135.4811173,
+            "timestamp": "2025-08-18T17:18:37Z",
+            "version": 4,
+            "changeset": 170631253,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:city": "大阪市",
+                "addr:neighbourhood": "2-3-13",
+                "addr:province": "大阪府",
+                "addr:quarter": "十三本町",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "contact:instagram": "b.yoshikawa1219",
+                "name": "Bistro よし川",
+                "takeaway": "yes",
+                "website": "https://ameblo.jp/b-yoshikawa/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7461237917,
+            "lat": 34.7192093,
+            "lon": 135.4812233,
+            "timestamp": "2025-08-18T16:12:32Z",
+            "version": 4,
+            "changeset": 170625834,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:city": "大阪市",
+                "addr:neighbourhood": "1-8-4",
+                "addr:province": "大阪府",
+                "addr:quarter": "十三本町",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "contact:instagram": "negiyakiyamamoto",
+                "name": "ねぎ焼やまもと",
+                "phone": "06-6308-4625",
+                "takeaway": "yes",
+                "website": "https://www.negiyaki-yamamoto.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7469297926,
+            "lat": 34.7198738,
+            "lon": 135.4802170,
+            "timestamp": "2025-08-18T17:39:37Z",
+            "version": 2,
+            "changeset": 170632217,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "contact:instagram": "ohmiya78",
+                "name": "リヴィエおおみや",
+                "shop": "pawnbroker",
+                "website": "https://livie-ohmiya.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7469304184,
+            "lat": 34.7196594,
+            "lon": 135.4804467,
+            "timestamp": "2025-08-18T18:00:08Z",
+            "version": 3,
+            "changeset": 170633782,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "contact:instagram": "cosmetics_yokota_",
+                "level": "0",
+                "name": "YOKOTA",
+                "shop": "cosmetics"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7469346539,
+            "lat": 34.7198052,
+            "lon": 135.4817555,
+            "timestamp": "2025-04-18T23:20:21Z",
+            "version": 4,
+            "changeset": 165133921,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "craft": "confectionery",
+                "name": "喜八洲総本舗",
+                "shop": "confectionery",
+                "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+                "takeaway": "yes",
+                "website": "http://www.kiyasu.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7484987827,
+            "lat": 34.7209820,
+            "lon": 135.4811806,
+            "timestamp": "2024-07-14T13:36:07Z",
+            "version": 4,
+            "changeset": 153931051,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "contact:instagram": "spanish_bar_tiburon",
+                "name": "スペインバル Tiburon",
+                "takeaway": "yes",
+                "website": "https://spanishbal-tiburon.owst.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7484987879,
+            "lat": 34.7192521,
+            "lon": 135.4772180,
+            "timestamp": "2020-05-05T10:18:44Z",
+            "version": 1,
+            "changeset": 84685237,
+            "user": "HikaruKinkakuji",
+            "uid": 1878070,
+            "tags": {
+                "name": "オカノ",
+                "shop": "watches"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7485005490,
+            "lat": 34.7192135,
+            "lon": 135.4767378,
+            "timestamp": "2025-08-18T15:50:20Z",
+            "version": 3,
+            "changeset": 170624749,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "contact:instagram": "dtd__cafe",
+                "name": "dtd cafe",
+                "takeaway": "yes",
+                "website": "https://hibidtdcafe.studio.site/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7485005492,
+            "lat": 34.7193386,
+            "lon": 135.4767184,
+            "timestamp": "2023-08-28T02:17:50Z",
+            "version": 2,
+            "changeset": 140473127,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "contact:instagram": "eirakudojyuko",
+                "name": "永楽堂寿浩",
+                "shop": "confectionery",
+                "takeaway": "yes",
+                "website": "https://www.instagram.com/eirakudojyuko/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7485005622,
+            "lat": 34.7195630,
+            "lon": 135.4796910,
+            "timestamp": "2024-01-20T13:05:07Z",
+            "version": 3,
+            "changeset": 146478286,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "name": "珈琲の泉",
+                "takeaway": "yes",
+                "website": "https://juso-honmachi.com/shop/414/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7536331301,
+            "lat": 34.7155829,
+            "lon": 135.4811990,
+            "timestamp": "2020-05-19T06:35:37Z",
+            "version": 1,
+            "changeset": 85419524,
+            "user": "HikaruKinkakuji",
+            "uid": 1878070,
+            "tags": {
+                "amenity": "restaurant",
+                "cuisine": "italian",
+                "name": "Stella Maria"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9671678071,
+            "lat": 34.7231702,
+            "lon": 135.4869182,
+            "timestamp": "2023-08-28T00:05:50Z",
+            "version": 2,
+            "changeset": 140471351,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "social_facility",
+                "name": "地域活動支援センター すももクラブ",
+                "social_facility": "day_care",
+                "social_facility:for": "disabled;mental_health",
+                "website": "http://www.we-can.or.jp/sumomo/index.html"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9677067117,
+            "lat": 34.7242949,
+            "lon": 135.4879703,
+            "timestamp": "2022-04-19T11:44:11Z",
+            "version": 1,
+            "changeset": 119903149,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "name": "中むら",
+                "shop": "confectionery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9691888789,
+            "lat": 34.7232303,
+            "lon": 135.4874282,
+            "timestamp": "2024-07-14T12:51:41Z",
+            "version": 3,
+            "changeset": 153929341,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "check_date": "2023-08-19",
+                "contact:facebook": "https://www.facebook.com/people/Backerei-Mika/100067650135605/",
+                "level": "0",
+                "name": "Backerei Mika",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9691928318,
+            "lat": 34.7232095,
+            "lon": 135.4876175,
+            "timestamp": "2024-07-14T12:53:23Z",
+            "version": 2,
+            "changeset": 153929406,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "contact:instagram": "linoandaiacoffee",
+                "cuisine": "coffee_shop",
+                "name": "LINO＆AIA",
+                "website": "https://linoandaia.handcrafted.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9704695307,
+            "lat": 34.7223975,
+            "lon": 135.4841299,
+            "timestamp": "2025-08-18T16:05:27Z",
+            "version": 3,
+            "changeset": 170625503,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:block_number": "4-11-4",
+                "addr:city": "大阪市淀川区",
+                "addr:province": "大阪府",
+                "addr:quarter": "十三東",
+                "amenity": "bar",
+                "contact:instagram": "cafe.bar.yggdrasil",
+                "name": "食の楽市研究所 YGGDRASIL"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9704704688,
+            "lat": 34.7265771,
+            "lon": 135.4930465,
+            "timestamp": "2025-08-18T15:24:42Z",
+            "version": 3,
+            "changeset": 170623407,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:block_number": "3-3-12",
+                "addr:city": "大阪市",
+                "addr:province": "大阪府",
+                "addr:quarter": "木川東",
+                "addr:suburb": "淀川区",
+                "contact:instagram": "kuragebunko",
+                "name": "海月文庫アートスペース",
+                "tourism": "gallery",
+                "website": "https://www.kuragebunko.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9704725476,
+            "lat": 34.7230643,
+            "lon": 135.4869502,
+            "timestamp": "2024-11-23T05:51:21Z",
+            "version": 2,
+            "changeset": 159484320,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "check_date": "2024-11-23",
+                "name": "松月",
+                "shop": "confectionery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9791824941,
+            "lat": 34.7192231,
+            "lon": 135.4832005,
+            "timestamp": "2025-08-18T07:42:30Z",
+            "version": 5,
+            "changeset": 170600520,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:floor": "2",
+                "amenity": "cafe",
+                "check_date": "2024-08-30",
+                "contact:instagram": "coffeeqkan",
+                "level": "1",
+                "name": "珈琲空間",
+                "website": "https://5071-qkan.amebaownd.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9844247918,
+            "lat": 34.7209737,
+            "lon": 135.4812424,
+            "timestamp": "2024-07-14T13:36:51Z",
+            "version": 5,
+            "changeset": 153931082,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "pub",
+                "check_date": "2023-08-19",
+                "contact:instagram": "sakanayapescerosso",
+                "name": "酒菜家ペッシェ・ロッソ",
+                "name:en": "sakanaya pescerosso",
+                "website": "https://sakanaya-pescerosso.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9889510717,
+            "lat": 34.7188628,
+            "lon": 135.4807591,
+            "timestamp": "2025-08-18T16:14:59Z",
+            "version": 6,
+            "changeset": 170625924,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cinema",
+                "contact:instagram": "nanagei",
+                "contact:twitter": "7_gei",
+                "name": "第七藝術劇場",
+                "website": "http://www.nanagei.com/",
+                "wikidata": "Q11602154",
+                "wikipedia": "ja:第七藝術劇場"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905551902,
+            "lat": 34.7233002,
+            "lon": 135.4869525,
+            "timestamp": "2024-07-14T12:50:16Z",
+            "version": 3,
+            "changeset": 153929291,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "contact:facebook": "https://www.facebook.com/konebunnko.4",
+                "name": "こねこ文庫"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905551903,
+            "lat": 34.7255976,
+            "lon": 135.4897547,
+            "timestamp": "2024-07-14T13:00:34Z",
+            "version": 3,
+            "changeset": 153929733,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "contact:instagram": "venisonbyterra",
+                "membership": "required",
+                "name": "VENISON by TERRA",
+                "website": "https://www.2001terra.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905594936,
+            "lat": 34.7188979,
+            "lon": 135.4751772,
+            "timestamp": "2022-08-12T04:47:09Z",
+            "version": 3,
+            "changeset": 124799962,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "name": "茶淹",
+                "opening_hours": "tu-sa 13:00-19:00",
+                "website": "https://chaenjin.jimdofree.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905599458,
+            "lat": 34.7195612,
+            "lon": 135.4759446,
+            "timestamp": "2024-11-01T14:30:11Z",
+            "version": 2,
+            "changeset": 158621894,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "name": "米かふぇ"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905603114,
+            "lat": 34.7272054,
+            "lon": 135.4901742,
+            "timestamp": "2025-08-18T12:41:08Z",
+            "version": 3,
+            "changeset": 170614913,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "contact:instagram": "kominori35",
+                "contact:twitter": "Hujinokome",
+                "name": "藤井米穀店",
+                "shop": "rice",
+                "website": "https://okome-fujii.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905646233,
+            "lat": 34.7218496,
+            "lon": 135.4832681,
+            "timestamp": "2025-08-18T17:08:37Z",
+            "version": 3,
+            "changeset": 170630765,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "brand": "平成製麺所",
+                "cuisine": "noodle",
+                "name": "うどんばか東口店",
+                "website": "https://www.heisei-mengyo.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905647002,
+            "lat": 34.7195363,
+            "lon": 135.4845434,
+            "timestamp": "2025-08-18T15:14:42Z",
+            "version": 5,
+            "changeset": 170622952,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "school",
+                "contact:instagram": "kodomoworkspace",
+                "contact:twitter": "KodomoWorkspace",
+                "name": "コドモワークスペース",
+                "website": "https://kodomo-workspace.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905661147,
+            "lat": 34.7201099,
+            "lon": 135.4833427,
+            "timestamp": "2024-10-31T14:32:26Z",
+            "version": 4,
+            "changeset": 158584178,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "bar",
+                "check_date": "2024-07-25",
+                "level": "1",
+                "name": "タイニーバブルス"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9905674736,
+            "lat": 34.7195792,
+            "lon": 135.4753565,
+            "timestamp": "2025-08-18T17:24:47Z",
+            "version": 4,
+            "changeset": 170631502,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "branch": "十三東口店",
+                "check_date": "2023-08-19",
+                "level": "0",
+                "name": "うどんばか平成製麺所"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9921875807,
+            "lat": 34.7211541,
+            "lon": 135.4814736,
+            "timestamp": "2022-07-31T08:02:54Z",
+            "version": 1,
+            "changeset": 124291475,
+            "user": "CAFEYUTTE",
+            "uid": 8768240,
+            "tags": {
+                "amenity": "pub",
+                "name": "風まかせ人まかせ"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9921908132,
+            "lat": 34.7200943,
+            "lon": 135.4788892,
+            "timestamp": "2025-01-10T12:26:27Z",
+            "version": 3,
+            "changeset": 161203417,
+            "user": "Munkson",
+            "uid": 212445,
+            "tags": {
+                "amenity": "pub",
+                "contact:instagram": "jyouyatei_toku",
+                "name": "常夜亭徳"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9921935508,
+            "lat": 34.7176216,
+            "lon": 135.4805946,
+            "timestamp": "2023-08-28T02:25:59Z",
+            "version": 3,
+            "changeset": 140473252,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "nightclub",
+                "contact:facebook": "https://www.facebook.com/13besu/",
+                "name": "13BASE",
+                "website": "http://yoshimisake.amsstudio.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9921941800,
+            "lat": 34.7178406,
+            "lon": 135.4795417,
+            "timestamp": "2025-08-19T02:19:34Z",
+            "version": 3,
+            "changeset": 170645827,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "nightclub",
+                "contact:instagram": "grandsaloon13",
+                "contact:twitter": "grandsaloon13",
+                "name": "グランドサロン十三",
+                "website": "https://juso13.net/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9921992288,
+            "lat": 34.7189695,
+            "lon": 135.4806456,
+            "timestamp": "2025-08-18T15:55:32Z",
+            "version": 3,
+            "changeset": 170625015,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cinema",
+                "contact:instagram": "theater_seven",
+                "contact:twitter": "juso_theater7",
+                "name": "シアターセブン",
+                "website": "https://www.theater-seven.com/index.html"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10159518044,
+            "lat": 34.7149775,
+            "lon": 135.4796895,
+            "timestamp": "2022-11-05T14:53:05Z",
+            "version": 1,
+            "changeset": 128523947,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "arts_centre",
+                "name": "キッズクラフト",
+                "website": "http://kidscraftosaka.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10159519642,
+            "lat": 34.7222216,
+            "lon": 135.4860125,
+            "timestamp": "2025-08-18T12:49:45Z",
+            "version": 3,
+            "changeset": 170615368,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "arts_centre",
+                "check_date": "2023-12-27",
+                "contact:instagram": "atoriecaima",
+                "contact:twitter": "atoriecaima",
+                "name": "アトリエCaima",
+                "website": "https://caima.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10159677020,
+            "lat": 34.7222295,
+            "lon": 135.4838226,
+            "timestamp": "2025-08-18T17:30:37Z",
+            "version": 5,
+            "changeset": 170631789,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "bar",
+                "check_date": "2023-08-19",
+                "contact:instagram": "redcarpet.rental_party",
+                "name": "レッドカーペット"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10171337918,
+            "lat": 34.7183914,
+            "lon": 135.4770335,
+            "timestamp": "2022-11-09T12:17:35Z",
+            "version": 1,
+            "changeset": 128684865,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "social_facility",
+                "name": "コドモブロス",
+                "operator": "codomoBROS",
+                "website": "http://codomobros.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10745288583,
+            "lat": 34.7241455,
+            "lon": 135.4842106,
+            "timestamp": "2024-03-13T11:16:48Z",
+            "version": 4,
+            "changeset": 148588456,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:block_number": "2",
+                "addr:city": "大阪市",
+                "addr:housenumber": "34",
+                "addr:neighbourhood": "5",
+                "addr:postcode": "532-0023",
+                "addr:province": "大阪府",
+                "addr:quarter": "十三東",
+                "addr:suburb": "淀川区",
+                "amenity": "library",
+                "check_date": "2024-03-13",
+                "name": "みんなの図書館さいくる",
+                "name:ja": "みんなの図書館さいくる",
+                "website": "https://saicuru.stores.jp/",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11126804287,
+            "lat": 34.7192575,
+            "lon": 135.4809971,
+            "timestamp": "2025-08-18T16:38:56Z",
+            "version": 2,
+            "changeset": 170627551,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "pub",
+                "check_date": "2023-08-19",
+                "contact:instagram": "arima832022",
+                "name": "有馬家"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11126804288,
+            "lat": 34.7191751,
+            "lon": 135.4804892,
+            "timestamp": "2023-08-28T02:02:56Z",
+            "version": 2,
+            "changeset": 140472942,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "check_date": "2023-08-19",
+                "name": "串かつ角栄",
+                "phone": "+816-6308-1977",
+                "website": "https://kakuei.gorp.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11126829669,
+            "lat": 34.7188321,
+            "lon": 135.4800385,
+            "timestamp": "2025-08-18T14:36:31Z",
+            "version": 2,
+            "changeset": 170620856,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "bar",
+                "check_date": "2023-08-19",
+                "level": "0",
+                "name": "bar カルカロドン・カルカリィス",
+                "name:en": "Carcharodon carcharias"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11126833705,
+            "lat": 34.7241230,
+            "lon": 135.4863196,
+            "timestamp": "2025-08-18T16:33:46Z",
+            "version": 3,
+            "changeset": 170626977,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "doctors",
+                "check_date": "2023-08-19",
+                "contact:instagram": "mama.no.te",
+                "healthcare": "doctor",
+                "name": "にじいろ助産院",
+                "website": "https://nijiiro-mamanote.amebaownd.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11247666885,
+            "lat": 34.7208808,
+            "lon": 135.4833347,
+            "timestamp": "2025-08-18T15:09:36Z",
+            "version": 4,
+            "changeset": 170622667,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "fast_food",
+                "check_date": "2024-02-25",
+                "contact:instagram": "amamido2023",
+                "name": "庵美堂",
+                "opening_hours": "Mo off; Tu-Su 11:30-15:00,17:00-20:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11329275494,
+            "lat": 34.7207152,
+            "lon": 135.4862634,
+            "timestamp": "2025-06-25T09:34:57Z",
+            "version": 2,
+            "changeset": 168085685,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "fast_food",
+                "contact:instagram": "osaka_iggy",
+                "contact:twitter": "@iggy_takoyaki",
+                "cuisine": "regional",
+                "name": "大阪イギー",
+                "website": "https://www.youtube.com/channel/UCj_AKTUrw33gZDpxFvdxZqw"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11331134503,
+            "lat": 34.7192912,
+            "lon": 135.4751572,
+            "timestamp": "2025-08-18T11:30:22Z",
+            "version": 3,
+            "changeset": 170611309,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "prep_school",
+                "contact:instagram": "titan_studyandcafe",
+                "name": "Study&Cafe タイタン",
+                "website": "https://xfound-corp.com/study-titan"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11405362640,
+            "lat": 34.7223742,
+            "lon": 135.4848536,
+            "timestamp": "2024-10-11T10:36:38Z",
+            "version": 5,
+            "changeset": 157750762,
+            "user": "松尾 穂音",
+            "uid": 21786129,
+            "tags": {
+                "addr:postcode": "5320023",
+                "amenity": "coworking_space",
+                "check_date": "2024-10-11",
+                "contact:instagram": "tsunagari_you",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "level": "1",
+                "name": "Co育て×Coワーキング / つながり食堂 結 -You-",
+                "opening_hours": "Mo-Fr 08:00-18:00; PH off",
+                "website": "https://cosodate-coworking-you.my.canva.site/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11801069878,
+            "lat": 34.7226336,
+            "lon": 135.4862855,
+            "timestamp": "2025-08-18T15:28:12Z",
+            "version": 3,
+            "changeset": 170623574,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "doctors",
+                "check_date": "2024-04-08",
+                "contact:instagram": "mama.no.te.to.chabudai",
+                "healthcare": "doctor",
+                "name": "ままのて",
+                "website": "https://www.nijiiro-mamanote.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11869517769,
+            "lat": 34.7201747,
+            "lon": 135.4819148,
+            "timestamp": "2025-08-18T14:03:12Z",
+            "version": 4,
+            "changeset": 170619123,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "bar",
+                "contact:facebook": "https://www.facebook.com/13torys",
+                "name": "十三トリスバー",
+                "name:en": "Juso Torys main bar",
+                "name:es": "Juso Torys bar",
+                "name:ja": "十三トリスバー",
+                "website": "http://13torys.web.fc2.com/index.html"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11897992480,
+            "lat": 34.7245317,
+            "lon": 135.4842457,
+            "timestamp": "2024-11-23T13:03:47Z",
+            "version": 5,
+            "changeset": 159498916,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "check_date": "2024-11-23",
+                "check_date:opening_hours": "2024-11-23",
+                "contact:instagram": "rahat_tearoom",
+                "name": "RAHAT",
+                "name:ja": "喫茶室ラハト",
+                "opening_hours": "Mo-Su,PH 12:00-22:00",
+                "outdoor_seating": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11957976826,
+            "lat": 34.7216204,
+            "lon": 135.4815537,
+            "timestamp": "2024-07-10T14:17:50Z",
+            "version": 2,
+            "changeset": 153786975,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "check_date": "2024-06-05",
+                "cuisine": "barbecue",
+                "name": "牛串あきね",
+                "website": "https://gyuukushi-akine.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11968164187,
+            "lat": 34.7164104,
+            "lon": 135.4806100,
+            "timestamp": "2024-07-14T14:09:11Z",
+            "version": 3,
+            "changeset": 153932361,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "check_date": "2024-06-10",
+                "contact:instagram": "udonmaru2021",
+                "name": "うどん食堂まる"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12047383949,
+            "lat": 34.7198338,
+            "lon": 135.4791167,
+            "timestamp": "2024-07-14T13:53:43Z",
+            "version": 3,
+            "changeset": 153931768,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "check_date": "2024-07-11;2024-07-13",
+                "contact:instagram": "juso_brewery",
+                "craft": "brewery",
+                "name": "十三ブリュワリー"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12048152575,
+            "lat": 34.7193607,
+            "lon": 135.4774502,
+            "timestamp": "2024-07-14T14:17:40Z",
+            "version": 2,
+            "changeset": 153932762,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "check_date": "2024-07-11",
+                "contact:instagram": "nanatcafe",
+                "name": "NANA&T CAFÉ"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12048152576,
+            "lat": 34.7188774,
+            "lon": 135.4761815,
+            "timestamp": "2025-02-23T04:13:12Z",
+            "version": 3,
+            "changeset": 162838524,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "tags": {
+                "amenity": "restaurant",
+                "check_date": "2025-02-23",
+                "contact:instagram": "pole_pole13",
+                "cuisine": "curry",
+                "level": "1",
+                "name": "スパイスカレーとカヌレのお店 polepole",
+                "opening_hours": "Mo-Tu,Fr-Su 11:30-19:30; We 11:30-14:00; Th off",
+                "payment:PayPay": "yes",
+                "payment:cash": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12048152579,
+            "lat": 34.7153277,
+            "lon": 135.4752228,
+            "timestamp": "2024-07-14T05:33:24Z",
+            "version": 3,
+            "changeset": 153916784,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "check_date": "2024-07-11",
+                "contact:instagram": "dining_mico",
+                "name": "ダイニングMico"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12048152582,
+            "lat": 34.7199961,
+            "lon": 135.4843393,
+            "timestamp": "2024-07-14T05:24:00Z",
+            "version": 2,
+            "changeset": 153916629,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "check_date": "2024-07-11",
+                "contact:phone": "+81 6-6777-7640",
+                "healthcare": "alternative",
+                "healthcare:speciality": "acupuncture",
+                "level": "2",
+                "name": "小竹鍼灸院",
+                "website": "http://sinkyu.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12050752329,
+            "lat": 34.7241484,
+            "lon": 135.4870340,
+            "timestamp": "2025-08-18T18:02:51Z",
+            "version": 3,
+            "changeset": 170633880,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "check_date": "2024-07-13",
+                "contact:instagram": "nomura13",
+                "name": "のむら化粧品店",
+                "shop": "cosmetics",
+                "website": "https://nomura13.jimdofree.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12050752330,
+            "lat": 34.7209191,
+            "lon": 135.4853139,
+            "timestamp": "2025-08-18T15:17:58Z",
+            "version": 3,
+            "changeset": 170623100,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "social_facility",
+                "check_date": "2024-07-13",
+                "contact:twitter": "EPSChiroba",
+                "name": "ひろば",
+                "website": "https://empowermentsc.net/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12050911538,
+            "lat": 34.7186028,
+            "lon": 135.4861304,
+            "timestamp": "2025-08-18T06:12:07Z",
+            "version": 4,
+            "changeset": 170596677,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "check_date": "2024-07-13",
+                "contact:instagram": "winecafe67",
+                "name": "WINE cafe 67"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12050913238,
+            "lat": 34.7227892,
+            "lon": 135.4848710,
+            "timestamp": "2024-11-23T06:24:32Z",
+            "version": 5,
+            "changeset": 159484785,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "check_date": "2024-11-23",
+                "check_date:opening_hours": "2024-11-23",
+                "contact:instagram": "maruhhi_k2?",
+                "cuisine": "regional",
+                "name": "まるっひ K2",
+                "opening_hours": "Mo,We-Fr 11:30-19:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12050929500,
+            "lat": 34.7216142,
+            "lon": 135.4854406,
+            "timestamp": "2024-07-14T05:04:49Z",
+            "version": 2,
+            "changeset": 153916330,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "community_centre",
+                "check_date": "2024-07-13",
+                "contact:instagram": "bibbidi_bobbidi_bu_from_osaka",
+                "name": "ビビディバビディ部",
+                "website": "https://bbborjp.notion.site/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12050937658,
+            "lat": 34.7205926,
+            "lon": 135.4866907,
+            "timestamp": "2025-08-18T05:57:21Z",
+            "version": 3,
+            "changeset": 170596191,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "pharmacy",
+                "check_date": "2024-07-13",
+                "contact:instagram": "pistachioyakkyoku",
+                "healthcare": "pharmacy",
+                "name": "ピスタチオ薬局",
+                "website": "https://firstcat222.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12050951729,
+            "lat": 34.7224432,
+            "lon": 135.4880250,
+            "timestamp": "2025-08-18T13:06:18Z",
+            "version": 3,
+            "changeset": 170616206,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "marketplace",
+                "check_date": "2024-07-13",
+                "contact:facebook": "https://www.facebook.com/share_channel/",
+                "contact:instagram": "torihata.to_futen",
+                "name": "鳥畑豆腐店",
+                "website": "https://torihata-toufu.jimdofree.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12065740007,
+            "lat": 34.7205988,
+            "lon": 135.4817690,
+            "timestamp": "2025-08-18T17:33:51Z",
+            "version": 2,
+            "changeset": 170631935,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "cafe",
+                "contact:instagram": "cafe.oneup",
+                "name": "ONE-UP",
+                "takeaway": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12073273636,
+            "lat": 34.7206586,
+            "lon": 135.4816921,
+            "timestamp": "2025-08-18T13:13:17Z",
+            "version": 3,
+            "changeset": 170616551,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "pub",
+                "branch": "十三店",
+                "check_date": "2025-06-25",
+                "contact:instagram": "uoyaki_juso",
+                "name": "uoyaki",
+                "website": "https://uoyaki.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12073287220,
+            "lat": 34.7209181,
+            "lon": 135.4833363,
+            "timestamp": "2024-07-25T10:51:31Z",
+            "version": 1,
+            "changeset": 154387593,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "pub",
+                "check_date": "2024-07-25",
+                "name": "せっちゃん"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12304437622,
+            "lat": 34.7266125,
+            "lon": 135.4898085,
+            "timestamp": "2025-06-25T10:19:36Z",
+            "version": 2,
+            "changeset": 168087498,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "social_facility",
+                "contact:instagram": "ichoubooks",
+                "name": "いちょうbooks"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12701825382,
+            "lat": 34.7219347,
+            "lon": 135.4821281,
+            "timestamp": "2025-03-26T09:07:16Z",
+            "version": 1,
+            "changeset": 164111802,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "library",
+                "check_date": "2025-03-26",
+                "name": "まちライブラリー＠ジオタワー大阪十三マンションギャラリー"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12916062515,
+            "lat": 34.7231654,
+            "lon": 135.4871126,
+            "timestamp": "2025-08-18T17:47:21Z",
+            "version": 2,
+            "changeset": 170632800,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "check_date": "2025-06-15",
+                "contact:instagram": "sakamoto_engei",
+                "name": "坂本園芸",
+                "shop": "florist",
+                "website": "https://www.sakamoto-engei.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12951509739,
+            "lat": 34.7210800,
+            "lon": 135.4832911,
+            "timestamp": "2025-08-18T13:51:02Z",
+            "version": 2,
+            "changeset": 170618463,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "contact:instagram": "bichnasigdang",
+                "contact:twitter": "bichnasigdang",
+                "cuisine": "korean",
+                "level": "1",
+                "name": "水キムチとチゲの店 ピンナ食堂",
+                "website": "https://bichnasigdang.my.canva.site/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12951665112,
+            "lat": 34.7188215,
+            "lon": 135.4762268,
+            "timestamp": "2025-06-25T11:40:19Z",
+            "version": 1,
+            "changeset": 168090643,
+            "user": "asuasu",
+            "uid": 10224798,
+            "tags": {
+                "amenity": "community_centre",
+                "check_date": "2025-06-25",
+                "name": "nico25"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13078201586,
+            "lat": 34.7183256,
+            "lon": 135.4802005,
+            "timestamp": "2025-08-18T14:52:49Z",
+            "version": 1,
+            "changeset": 170621783,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "leisure": "sauna",
+                "name": "シャン"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13078412950,
+            "lat": 34.7199805,
+            "lon": 135.4835887,
+            "timestamp": "2025-08-18T17:43:20Z",
+            "version": 1,
+            "changeset": 170632394,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "amenity": "restaurant",
+                "cuisine": "barbecue",
+                "name": "焼道楽丸八",
+                "website": "https://yakidourakumaruhati.1net.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 13078445416,
+            "lat": 34.7196319,
+            "lon": 135.4836417,
+            "timestamp": "2025-08-18T17:53:02Z",
+            "version": 2,
+            "changeset": 170633480,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "contact:instagram": "juso_umaimon_labo",
+                "level": "2",
+                "name": "リブライズエステート",
+                "name:en": "Livrise Estate",
+                "office": "estate_agent",
+                "website": "https://www.livrises.co.jp/"
+            }
+        },
+        {
+            "type": "way",
+            "id": 276877441,
+            "timestamp": "2025-08-18T18:07:35Z",
+            "version": 3,
+            "changeset": 170634059,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                2814436637,
+                2814436638,
+                2814436639,
+                2814436640,
+                2814436637
+            ],
+            "tags": {
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "building:levels": "3",
+                "check_date": "2024-05-23",
+                "denomination": "anglican",
+                "internet_access": "no",
+                "name": "日本聖公会聖贖主教会礼拝堂",
+                "operator": "日本聖公会",
+                "polling_station": "no",
+                "religion": "christian",
+                "roof:shape": "gabled",
+                "source": "Bing,2011-4",
+                "website": "https://www.hakuaisha-welfare.net/redeemer/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "way",
+            "id": 323990572,
+            "timestamp": "2025-08-18T16:59:51Z",
+            "version": 4,
+            "changeset": 170630014,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                3307525032,
+                3307525019,
+                3307525027,
+                3307525042,
+                3307525032
+            ],
+            "tags": {
+                "amenity": "social_facility",
+                "building": "yes",
+                "contact:instagram": "palette_hmw",
+                "name": "PALETTE",
+                "website": "https://palette-osaka.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2814436637,
+            "lat": 34.7218934,
+            "lon": 135.4760771
+        },
+        {
+            "type": "node",
+            "id": 2814436638,
+            "lat": 34.7216940,
+            "lon": 135.4759796
+        },
+        {
+            "type": "node",
+            "id": 2814436639,
+            "lat": 34.7216547,
+            "lon": 135.4760987
+        },
+        {
+            "type": "node",
+            "id": 2814436640,
+            "lat": 34.7218541,
+            "lon": 135.4761961
+        },
+        {
+            "type": "node",
+            "id": 3307525019,
+            "lat": 34.7241179,
+            "lon": 135.4741363
+        },
+        {
+            "type": "node",
+            "id": 3307525027,
+            "lat": 34.7241743,
+            "lon": 135.4743019
+        },
+        {
+            "type": "node",
+            "id": 3307525032,
+            "lat": 34.7243079,
+            "lon": 135.4740407
+        },
+        {
+            "type": "node",
+            "id": 3307525042,
+            "lat": 34.7243642,
+            "lon": 135.4742063
+        }
+    ]
+}

@@ -9,24 +9,37 @@
                 {
                     "id": "category",
                     "name": "カテゴリ",
-                    "hidden": false,
+                    "hidden": true
+                },
+                {
+                    "id": "keyword",
+                    "name": "業種・特徴",
                     "width": "40%"
                 },
                 {
                     "id": "title",
                     "name": "施設名",
                     "width": "60%"
+                },
+                {
+                    "id": "memo",
+                    "name": "メモ",
+                    "hidden": true
                 }
             ],
             "poiFields": [
                 "id",
                 "category",
-                "name"
+                "keyword",
+                "name",
+                "memo"
             ],
             "actFields": [ //#付きはOSMタグ、ただし#categoryのみ内部判定結果
                 "#id", // 最初の列は#id固定
                 "category", // listTableのフィルタ都合上。この位置にcategoryが必要
-                "title"
+                "keyword",
+                "title",
+                "memo"
             ]
         }
     }

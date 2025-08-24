@@ -1,8 +1,7 @@
 // Community Mapmaker User Config
 {
     "map": {
-        "miniMap": false, // miniMap表示時はtrue
-        "changeMap": false, // 地図切り替え時はtrue
+        "changeMap": true, // 地図切り替え時はtrue
         "tileName": "OSMFJ", // タイル一覧は config-system.jsonc へ
         "viewCenter": [
             135.481683,
@@ -23,16 +22,9 @@
         "initZoom": 16,
         "maxZoom": 21,
         "detailZoom": 18.5, // モーダルダイアログ表示時のズームサイズ
-        "textFont": [
-            "NNoto Sans Bold"
-        ], // 使用可能なフォント（spriteに依存）
-        "textSize": 12,
-        "polygonMarker": { // ポリゴン設定
-            "fill-color": "#CC6666",
-            "fill-opacity": 0.3
-        }
     },
     "minimap": { // 地球儀表示時の初期設定
+        "use": false, // 地球儀利用時はtrue
         "height": 200,
         "initZoom": 2,
         "viewCenter": [
@@ -40,35 +32,76 @@
             34
         ]
     },
+    "polygon": {
+        "textFont": [
+            "Noto Sans Regular"
+        ], // 使用可能なフォント（spriteに依存）
+        "textSize": 12,
+        "textAnchor": "top",
+        "fill": { // ポリゴン設定
+            "fill-color": "#CC6666",
+            "fill-opacity": 0.3
+        }
+    },
     "icon": {
         "fgPath": "icon",
         "bgPath": "image",
         "shadow": 0.6,
-        "attention": 0.6,
+        "attention": 0.55,
         "green": 0.6,
-        "middle": 0.6,
+        "middle": 0.7,
         "visited": 0.4,
         "normal": 0.6,
         "flag": 0.5,
         "textFont": [
-            "Noto Sans Regular"
+            "Noto Sans Bold"
         ], // 使用可能なフォント（spriteに依存）
-        "textSize": 10.5,
+        "textSize": 12,
         "textViewZoom": 15 // アイコンに文字を表示するズームレベル
     },
     "view": {
         "poiActLoad": true, // 起動時にActivityを読み込むか
-        "poiFilter": "all", // listTable更新時 all:全て / filter:絞り込み / "":非連動
+        "poiFilter": "", // listTable更新時 all:全て / filter:絞り込み / "":非連動
         "poiZoom": {
             // アイコンの前後位置は後ろの方が手前になる
-            "activity": 7,
+            "activity": 15,
+            "十三元今里商店街": 15,
+            "十三本町商店街": 15,
+            "⼗三フレンドリー商店街": 15,
+            "⼗三栄⼩町商店会": 15,
+            "十三西栄町商店会": 15,
+            "十三 サカエマチ商店街": 15,
+            "十三一番街商店会": 15,
+            "十三トミータウン商店会": 15,
+            "十三駅前西商店会": 15,
+            "十三駅前通商店街": 15,
+            "十三東二仲町商店会": 15,
+            "十三東駅前通商店街": 15,
+            "十三東三仲町通商店会": 15,
+            "十三東本通商店街": 15,
+            "木川本町商店街": 15,
+            "bicycle_rental": 15,
             "green_area": 12
         },
         "editZoom": {
             // 編集時に追加するpoiZoom
-            "activity": 7,
-            "stores": 7,
-            "bicycle_rental": 7,
+            "activity": 15,
+            "十三元今里商店街": 15,
+            "十三本町商店街": 15,
+            "⼗三フレンドリー商店街": 15,
+            "⼗三栄⼩町商店会": 15,
+            "十三西栄町商店会": 15,
+            "十三 サカエマチ商店街": 15,
+            "十三一番街商店会": 15,
+            "十三トミータウン商店会": 15,
+            "十三駅前西商店会": 15,
+            "十三駅前通商店街": 15,
+            "十三東二仲町商店会": 15,
+            "十三東駅前通商店街": 15,
+            "十三東三仲町通商店会": 15,
+            "十三東本通商店街": 15,
+            "木川本町商店街": 15,
+            "bicycle_rental": 15,
             "green_area": 12
         }
     },
@@ -106,8 +139,12 @@
         "targetName": "activity"
     },
     "static": {
-        "mode": false,
-        "osmjson": ""
+        "use": false,
+        "osmjsons": [
+            "./data/st_bicycle.jsonc",
+            "./data/st_stores.jsonc",
+            "./data/st_natural.jsonc"
+        ]
     },
     "wikipedia": {
         "marker": "wikipedia.svg",

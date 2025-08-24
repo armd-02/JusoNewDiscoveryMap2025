@@ -89,11 +89,11 @@ window.addEventListener("DOMContentLoaded", function () {
 
         winCont.viewSplash(true);
         listTable.init();
-        poiCont.init();
+        poiCont.init(Conf.minimap.use);
 
         Promise.all([
             gSheet.get(Conf.google.AppScript),
-            cMapMaker.load_static(),
+            loadStatic(),
             mapLibre.init(Conf), // get_zoomなどMapLibreの情報が必要なためMapLibre.init後に実行
         ]).then((results) => {
             // MapLibre add control
@@ -140,7 +140,7 @@ window.addEventListener("DOMContentLoaded", function () {
             if (Conf.view.poiActLoad) {
                 let osmids = poiCont.pois().acts.map((act) => { return act.osmid; });
                 osmids = osmids.filter(Boolean);
-                if (osmids.length > 0 && !Conf.static.mode) {
+                if (osmids.length > 0 && !Conf.static.use) {
                     basic.retry(() => overPassCont.getOsmIds(osmids), 5).then((geojson) => {
                         poiCont.addGeojson(geojson)
                         poiCont.setActlnglat()
@@ -156,3 +156,24 @@ window.addEventListener("DOMContentLoaded", function () {
         })
     })
 })
+
+function loadStatic() {
+    return new Promise((resolve, reject) => {
+        if (!Conf.static.use) {
+            resolve();
+        } else {
+            console.log("cMapMaker: no static mode");
+            const fetchUrls = Conf.static.osmjsons.map((url) => fetch(url).then((res) => res.text()));
+            Promise.all(fetchUrls).then((datas) => {
+                datas.forEach(data => {
+                    let json = JSON5.parse(data)
+                    let ovanswer = overPassCont.setOsmJson(json);
+                    poiCont.addGeojson(ovanswer);
+                })
+                poiCont.setActlnglat();
+                console.log("cMapMaker: static load done.");
+                resolve();
+            })
+        }
+    })
+}

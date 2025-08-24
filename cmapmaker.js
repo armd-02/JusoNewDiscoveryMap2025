@@ -51,28 +51,6 @@ class CMapMaker {
         this.eventMoveMap()
     }
 
-    async load_static() {
-        if (!Conf.static.mode) {
-            console.log("cMapMaker: no static mode");
-            return;
-        }
-
-        try {
-            const response = await fetch(Conf.static.osmjson, { cache: "no-store" });
-            if (!response.ok) throw new Error(`cMapMaker: HTTP error ${response.status}`);
-
-            const data = await response.json();
-            let ovanswer = overPassCont.setOsmJson(data);
-            poiCont.addGeojson(ovanswer);
-            poiCont.setActlnglat();
-            console.log("cMapMaker: static load done.");
-            return ovanswer;
-        } catch (err) {
-            console.error("cMapMaker:", err);
-            throw err;
-        }
-    }
-
     setVisitedFilter(visitedFilterStatus) {
         console.log(`cMapMaker: setVisitedFilter: ${visitedFilterStatus}`);
         this.visitedFilterStatus = visitedFilterStatus;
@@ -137,16 +115,16 @@ class CMapMaker {
         } else {			// targets 内に選択肢が含まれている場合
             console.log("viewPoi: " + targets.concat())
             let nowzoom = mapLibre.getZoom(false)
-            targets = targets.filter(target => target !== "activity");  // activiyがあれば削除
+            //targets = targets.filter(target => target !== "activity");  // activiyがあれば削除 // 2025/08/20 一旦false
             targets = targets.filter(s => s !== "");
             if (nowselect = "-") {
-                poiCont.setPoi(listTable.getFilterList(), nowselect == Conf.google.targetName)
+                poiCont.setPoi(listTable.getFilterList(), false) //nowselect == Conf.google.targetName) // 2025/08/20 一旦false
             } else {
                 for (let target of targets) {
                     let poiView = Conf.google.targetName == target ? true : Conf.osm[target].expression.poiView	// activity以外はexp.poiViewを利用
                     let flag = nowzoom >= Conf.view.poiZoom[target] || (Conf.etc.editMode && nowzoom >= Conf.view.editZoom[target])
                     if ((target == nowselect) && flag && poiView) {	// 選択している種別の場合
-                        poiCont.setPoi(listTable.getFilterList(), target == Conf.google.targetName)
+                        poiCont.setPoi(listTable.getFilterList(), false) // target == Conf.google.targetName) // 2025/08/20 一旦false
                         break
                     }
                 }
@@ -275,9 +253,8 @@ class CMapMaker {
                 return title
             }
 
-            winCont.clearDatail()
             if (osmid == "" || osmid == undefined) {    // OSMIDが空の時はクリアして終了
-                winCont.setSidebar()
+                winCont.clearDatail()
                 geoCont.writePoiCircle()
                 resolve()
                 return
@@ -300,12 +277,8 @@ class CMapMaker {
 
             let title = `<img src="./${Conf.icon.fgPath}/${poiCont.getIcon(tags)}" height="16">`
             let message = "";
-            for (let i = 0; i < Conf.osm[target].titles.length; i++) {
-                if (tags[Conf.osm[target].titles[i]] !== void 0) {
-                    title += `${tags[Conf.osm[target].titles[i]]}`;
-                    break;
-                };
-            };
+            title += poiCont.getOSMname(tags, glot.lang);
+
             if (title == "") title = category[0] + category[1] !== "" ? "(" + category[1] + ")" : "";   // サブカテゴリ時は追加
             if (title == "") title = glot.get("undefined");
             winCont.menu_make(Conf.menu.modal, "btnMenu");
@@ -446,6 +419,10 @@ class CMapMaker {
             }
             catname = selcategory !== "-" ? `?category=${selcategory}` : ""
             history.replaceState('', '', location.pathname + catname + location.hash)
+            winCont.clearDatail().then(() => {
+                geoCont.writePoiCircle()
+                mapLibre.map.redraw()
+            })
         })
     }
 
