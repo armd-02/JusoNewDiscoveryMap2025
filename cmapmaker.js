@@ -12,7 +12,6 @@ class CMapMaker {
     }
 
     addEvents() {
-        console.log("CMapMaker: init.")
         mapLibre.on('moveend', this.eventMoveMap.bind(cMapMaker))   		// マップ移動時の処理
         mapLibre.on('zoomend', this.eventZoomMap.bind(cMapMaker))			// ズーム終了時に表示更新
         list_category.addEventListener('change', this.eventChangeCategory.bind(cMapMaker))	// category change
@@ -99,7 +98,6 @@ class CMapMaker {
         targets = [...new Set(targets)];    // 重複削除
         poiCont.setPoi(listTable.getFilterList(), false)
 
-        //
         let subcategory = poiCont.getTargets().indexOf(nowselect) > -1 || nowselect == "-" ? false : true;	// サブカテゴリ選択時はtrue
         if (subcategory) {	// targets 内に選択肢が含まれていない場合（サブカテゴリ選択時）
             poiCont.setPoi(listTable.getFilterList(), false)
@@ -121,7 +119,6 @@ class CMapMaker {
                 }
             }
         }
-        console.log("viewPoi: End.")
     }
 
     // 画面内のActivity画像を表示させる(view: true=表示)
@@ -193,12 +190,12 @@ class CMapMaker {
                     console.log("[success]cMapMaker: updateOsmPoi End.");
                     global_status.innerHTML = "";
                     resolve({ "update": true });
-                }) /*.catch(() => {
+                }).catch(() => {
                     winCont.spinner(false);
                     console.log("[error]cMapMaker: updateOsmPoi end.");
                     global_status.innerHTML = "";
                     resolve({ "update": false });
-                });*/
+                });
             }
         })
 
@@ -220,9 +217,9 @@ class CMapMaker {
                         listTable.selectCategory(targets)
                         listTable.filterByPoiStatus(this.visitedFilterStatus, this.favoriteFilter);
                         if (window.getSelection) window.getSelection().removeAllRanges()
+                        this.makeImages(Conf.thumbnail.use)
                         this.viewArea()	        // 入手したgeoJsonを追加
                         this.viewPoi(targets)	// in targets
-                        this.makeImages(Conf.thumbnail.use)
                         resolve({ "update": true })
                         break
                     default:
