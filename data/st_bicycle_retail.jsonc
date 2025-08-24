@@ -1,0 +1,3420 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.61.8 b1080abd",
+    "osm3s": {
+        "timestamp_osm_base": "2025-08-24T05:17:45Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 6280669610,
+            "lat": 34.7149745,
+            "lon": 135.4777437,
+            "timestamp": "2019-02-15T11:23:52Z",
+            "version": 1,
+            "changeset": 67223871,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9921926092,
+            "lat": 34.7167676,
+            "lon": 135.4805332,
+            "timestamp": "2025-01-14T05:06:21Z",
+            "version": 7,
+            "changeset": 161332214,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "10",
+                "fee": "yes",
+                "gbfs:name": "K-01.ホテルプラザオーサカ",
+                "gbfs:station_id": "7811",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "ホテルプラザオーサカ",
+                "name:en": "Hotel Plaza Osaka",
+                "name:ja": "ホテルプラザオーサカ",
+                "network": "HUBchari",
+                "ref": "K-01",
+                "website": "https://hubchari.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11036637529,
+            "lat": 34.7162453,
+            "lon": 135.4684900,
+            "timestamp": "2025-01-06T06:16:48Z",
+            "version": 3,
+            "changeset": 161045253,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "addr:province": "大阪府",
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "HELLO CYCLING",
+                "brand:ja": "ハローサイクリング",
+                "brand:wikidata": "Q91231927",
+                "capacity": "6",
+                "contact:website": "https://www.hellocycling.jp",
+                "fee": "yes",
+                "gbfs:station_id": "1910",
+                "gbfs:system_id": "hellocycling",
+                "name": "セブンイレブン 大阪塚本6丁目店",
+                "name:en": "Seven-Eleven",
+                "name:ja": "セブンイレブン 大阪塚本6丁目店",
+                "network": "HELLO CYCLING",
+                "network:ja": "ハローサイクリング",
+                "network:wikidata": "Q91231927"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11036637551,
+            "lat": 34.7159410,
+            "lon": 135.4742960,
+            "timestamp": "2025-01-06T06:16:48Z",
+            "version": 3,
+            "changeset": 161045253,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "addr:province": "大阪府",
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "HELLO CYCLING",
+                "brand:ja": "ハローサイクリング",
+                "brand:wikidata": "Q91231927",
+                "capacity": "5",
+                "contact:website": "https://www.hellocycling.jp",
+                "fee": "yes",
+                "gbfs:station_id": "1901",
+                "gbfs:system_id": "hellocycling",
+                "name": "セブンイレブン 大阪塚本3丁目店",
+                "name:en": "Seven-Eleven",
+                "name:ja": "セブンイレブン 大阪塚本3丁目店",
+                "network": "HELLO CYCLING",
+                "network:ja": "ハローサイクリング",
+                "network:wikidata": "Q91231927"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11036637838,
+            "lat": 34.7125740,
+            "lon": 135.4619000,
+            "timestamp": "2025-01-06T06:16:48Z",
+            "version": 3,
+            "changeset": 161045253,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "addr:province": "大阪府",
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "HELLO CYCLING",
+                "brand:ja": "ハローサイクリング",
+                "brand:wikidata": "Q91231927",
+                "capacity": "5",
+                "contact:website": "https://www.hellocycling.jp",
+                "fee": "yes",
+                "gbfs:station_id": "3082",
+                "gbfs:system_id": "hellocycling",
+                "name": "サイクルベースあさひ西淀川歌島店",
+                "name:en": "Cycle Base Asahi, Nishi-Yodogawa",
+                "name:ja": "サイクルベースあさひ西淀川歌島店",
+                "network": "HELLO CYCLING",
+                "network:ja": "ハローサイクリング",
+                "network:wikidata": "Q91231927"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11434320401,
+            "lat": 34.7170310,
+            "lon": 135.4824800,
+            "timestamp": "2025-01-14T05:06:21Z",
+            "version": 5,
+            "changeset": 161332214,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "8",
+                "fee": "yes",
+                "gbfs:name": "K-05.NTT西日本淀川ビル",
+                "gbfs:station_id": "1860",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "NTT西日本淀川ビル",
+                "name:en": "NTT-West Yodogawa Building",
+                "name:ja": "NTT西日本淀川ビル",
+                "ref": "K-05"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11738090361,
+            "lat": 34.7198154,
+            "lon": 135.4829004,
+            "timestamp": "2025-07-27T10:43:55Z",
+            "version": 3,
+            "changeset": 169550517,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "tags": {
+                "genus": "Prunus",
+                "height": "4",
+                "leaf_cycle": "deciduous",
+                "leaf_type": "broadleaved",
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11738109209,
+            "lat": 34.7198763,
+            "lon": 135.4828888,
+            "timestamp": "2025-01-22T12:31:32Z",
+            "version": 2,
+            "changeset": 161636366,
+            "user": "Munkson",
+            "uid": 212445,
+            "tags": {
+                "genus": "Prunus",
+                "leaf_cycle": "deciduous",
+                "leaf_type": "broadleaved",
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11839709321,
+            "lat": 34.7197570,
+            "lon": 135.4799310,
+            "timestamp": "2024-11-06T13:47:36Z",
+            "version": 2,
+            "changeset": 158819020,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "4",
+                "fee": "yes",
+                "gbfs:name": "K-15.アスティルホテル十三プレシャス",
+                "gbfs:station_id": "2808",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "アスティルホテル十三プレシャス",
+                "name:ja": "アスティルホテル十三プレシャス",
+                "ref": "K-15"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11839709352,
+            "lat": 34.7212871,
+            "lon": 135.4832785,
+            "timestamp": "2025-07-30T15:49:46Z",
+            "version": 4,
+            "changeset": 169728165,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "4",
+                "fee": "yes",
+                "gbfs:name": "K-08.EH-JUSO 01",
+                "gbfs:station_id": "2338",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "EH-JUSO 01",
+                "name:en": "EH-JUSO 01",
+                "name:ja": "EH-JUSO 01",
+                "ref": "K-08"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11843096413,
+            "lat": 34.7177749,
+            "lon": 135.4817924,
+            "timestamp": "2025-01-06T06:16:48Z",
+            "version": 2,
+            "changeset": 161045253,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "addr:province": "大阪府",
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "HELLO CYCLING",
+                "brand:ja": "ハローサイクリング",
+                "brand:wikidata": "Q91231927",
+                "capacity": "5",
+                "contact:website": "https://www.hellocycling.jp",
+                "fee": "yes",
+                "gbfs:station_id": "13870",
+                "gbfs:system_id": "hellocycling",
+                "name": "グランディア大阪ノース",
+                "name:ja": "グランディア大阪ノース",
+                "network": "HELLO CYCLING",
+                "network:ja": "ハローサイクリング",
+                "network:wikidata": "Q91231927"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12069032426,
+            "lat": 34.7165494,
+            "lon": 135.4756958,
+            "timestamp": "2025-01-14T05:06:21Z",
+            "version": 8,
+            "changeset": 161332214,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:en": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "5",
+                "check_date": "2024-07-26",
+                "fee": "yes",
+                "gbfs:name": "K-17.エグゼ大阪NORTH GATE1",
+                "gbfs:station_id": "2901",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "エグゼ大阪NORTH GATE1",
+                "name:en": "Docomo Bike Share",
+                "name:ja": "エグゼ大阪NORTH GATE1",
+                "operator": "ドコモ・バイクシェア",
+                "operator:en": "Docomo Bike Share",
+                "operator:ja": "ドコモ・バイクシェア",
+                "operator:wikidata": "Q55533296",
+                "ref": "K-17"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12074904167,
+            "lat": 34.7166262,
+            "lon": 135.4755303,
+            "timestamp": "2024-11-06T12:23:58Z",
+            "version": 2,
+            "changeset": 158815837,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "2",
+                "check_date": "2024-07-26",
+                "fee": "yes",
+                "gbfs:name": "K-18.エグゼ大阪NORTH GATE2",
+                "gbfs:station_id": "2902",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "エグゼ大阪NORTH GATE2",
+                "name:ja": "エグゼ大阪NORTH GATE2",
+                "ref": "K-18"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12318496299,
+            "lat": 34.7149160,
+            "lon": 135.4737080,
+            "timestamp": "2025-01-14T05:06:21Z",
+            "version": 2,
+            "changeset": 161332214,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "4",
+                "fee": "yes",
+                "gbfs:name": "K-24.グランサンクゼロツー2",
+                "gbfs:station_id": "3177",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "グランサンクゼロツー2",
+                "name:ja": "グランサンクゼロツー2",
+                "ref": "K-24"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12318496300,
+            "lat": 34.7149600,
+            "lon": 135.4737000,
+            "timestamp": "2025-01-14T05:06:21Z",
+            "version": 2,
+            "changeset": 161332214,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "2",
+                "fee": "yes",
+                "gbfs:name": "K-23.グランサンクゼロツー1",
+                "gbfs:station_id": "3176",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "グランサンクゼロツー1",
+                "name:ja": "グランサンクゼロツー1",
+                "ref": "K-23"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12318497310,
+            "lat": 34.7145110,
+            "lon": 135.4699970,
+            "timestamp": "2024-11-06T12:23:58Z",
+            "version": 1,
+            "changeset": 158815837,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "Docomo Bike Share",
+                "brand:ja": "ドコモ・バイクシェア",
+                "brand:website": "https://docomo-cycle.jp/",
+                "brand:wikidata": "Q55533296",
+                "capacity": "8",
+                "fee": "yes",
+                "gbfs:name": "K-22.サンユタカマンション",
+                "gbfs:station_id": "3134",
+                "gbfs:system_id": "docomo-cycle",
+                "name": "サンユタカマンション",
+                "name:ja": "サンユタカマンション",
+                "ref": "K-22"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12475492921,
+            "lat": 34.7198171,
+            "lon": 135.4810579,
+            "timestamp": "2025-01-06T06:16:48Z",
+            "version": 2,
+            "changeset": 161045253,
+            "user": "okadatsuneo_import",
+            "uid": 12352917,
+            "tags": {
+                "addr:province": "大阪府",
+                "amenity": "bicycle_rental",
+                "authentication:app": "yes",
+                "brand": "HELLO CYCLING",
+                "brand:ja": "ハローサイクリング",
+                "brand:wikidata": "Q91231927",
+                "capacity": "2",
+                "contact:website": "https://www.hellocycling.jp",
+                "fee": "yes",
+                "gbfs:station_id": "15766",
+                "gbfs:system_id": "hellocycling",
+                "name": "関西みらい銀行 十三支店",
+                "name:en": "Kansai Mirai Bank Juso",
+                "name:ja": "関西みらい銀行 十三支店",
+                "network": "HELLO CYCLING",
+                "network:ja": "ハローサイクリング",
+                "network:wikidata": "Q91231927"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12570445167,
+            "lat": 34.7087982,
+            "lon": 135.4637221,
+            "timestamp": "2025-02-09T04:30:19Z",
+            "version": 1,
+            "changeset": 162301408,
+            "user": "スペシャルマン",
+            "uid": 21072337,
+            "tags": {
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12570445168,
+            "lat": 34.7088059,
+            "lon": 135.4638032,
+            "timestamp": "2025-02-09T04:30:19Z",
+            "version": 1,
+            "changeset": 162301408,
+            "user": "スペシャルマン",
+            "uid": 21072337,
+            "tags": {
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12830408287,
+            "lat": 34.7099524,
+            "lon": 135.4694597,
+            "timestamp": "2025-05-12T13:59:18Z",
+            "version": 1,
+            "changeset": 166154387,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "tags": {
+                "genus": "Cerasus",
+                "leaf_cycle": "deciduous",
+                "leaf_type": "broadleaved",
+                "natural": "tree",
+                "species": "Cerasus × yedoensis",
+                "species:ja": "ソメイヨシノ",
+                "taxon": "Cerasus × yedoensis"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12830408288,
+            "lat": 34.7098873,
+            "lon": 135.4693598,
+            "timestamp": "2025-05-12T13:59:18Z",
+            "version": 1,
+            "changeset": 166154387,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "tags": {
+                "genus": "Cerasus",
+                "leaf_cycle": "deciduous",
+                "leaf_type": "broadleaved",
+                "natural": "tree",
+                "species": "Cerasus × yedoensis",
+                "species:ja": "ソメイヨシノ",
+                "taxon": "Cerasus × yedoensis"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12830408289,
+            "lat": 34.7098146,
+            "lon": 135.4693638,
+            "timestamp": "2025-05-12T13:59:18Z",
+            "version": 1,
+            "changeset": 166154387,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "tags": {
+                "genus": "Cerasus",
+                "leaf_cycle": "deciduous",
+                "leaf_type": "broadleaved",
+                "natural": "tree",
+                "species": "Cerasus × yedoensis",
+                "species:ja": "ソメイヨシノ",
+                "taxon": "Cerasus × yedoensis"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12830408290,
+            "lat": 34.7097198,
+            "lon": 135.4694684,
+            "timestamp": "2025-05-12T13:59:18Z",
+            "version": 1,
+            "changeset": 166154387,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "tags": {
+                "genus": "Cerasus",
+                "leaf_cycle": "deciduous",
+                "leaf_type": "broadleaved",
+                "natural": "tree",
+                "species": "Cerasus × yedoensis",
+                "species:ja": "ソメイヨシノ",
+                "taxon": "Cerasus × yedoensis"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12830429772,
+            "lat": 34.7061852,
+            "lon": 135.4650293,
+            "timestamp": "2025-05-12T13:59:18Z",
+            "version": 1,
+            "changeset": 166154387,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "tags": {
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12830429773,
+            "lat": 34.7062133,
+            "lon": 135.4651319,
+            "timestamp": "2025-05-12T13:59:18Z",
+            "version": 1,
+            "changeset": 166154387,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "tags": {
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12830429774,
+            "lat": 34.7063241,
+            "lon": 135.4650240,
+            "timestamp": "2025-05-12T13:59:18Z",
+            "version": 1,
+            "changeset": 166154387,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "tags": {
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12830429775,
+            "lat": 34.7064217,
+            "lon": 135.4651950,
+            "timestamp": "2025-05-12T13:59:18Z",
+            "version": 1,
+            "changeset": 166154387,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "tags": {
+                "natural": "tree"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313031082,
+            "timestamp": "2014-11-16T03:33:38Z",
+            "version": 1,
+            "changeset": 26813855,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189525808,
+                3189525805
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313031083,
+            "timestamp": "2014-11-16T03:33:38Z",
+            "version": 1,
+            "changeset": 26813855,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189526290,
+                3189526203
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313031084,
+            "timestamp": "2014-11-16T03:33:38Z",
+            "version": 1,
+            "changeset": 26813855,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189525809,
+                3189525968
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313031085,
+            "timestamp": "2014-11-16T03:33:38Z",
+            "version": 1,
+            "changeset": 26813855,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189526157,
+                3189526086
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313031086,
+            "timestamp": "2014-11-16T03:33:38Z",
+            "version": 1,
+            "changeset": 26813855,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189526197,
+                3189526178
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313031806,
+            "timestamp": "2014-11-16T03:54:37Z",
+            "version": 1,
+            "changeset": 26813954,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189534612,
+                3189534490
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313031811,
+            "timestamp": "2014-11-16T03:54:38Z",
+            "version": 1,
+            "changeset": 26813954,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189534466,
+                3189534423,
+                3189534482,
+                3189534535
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313047855,
+            "timestamp": "2014-11-16T09:23:30Z",
+            "version": 1,
+            "changeset": 26817129,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189708374,
+                3189708373
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313047856,
+            "timestamp": "2014-11-16T09:23:30Z",
+            "version": 1,
+            "changeset": 26817129,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189708370,
+                3189708372
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313047857,
+            "timestamp": "2014-11-16T09:23:30Z",
+            "version": 1,
+            "changeset": 26817129,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189708229,
+                3189708230
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313047858,
+            "timestamp": "2014-11-16T09:23:30Z",
+            "version": 1,
+            "changeset": 26817129,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3189708368,
+                3189708362
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 315813573,
+            "timestamp": "2014-12-04T21:45:19Z",
+            "version": 1,
+            "changeset": 27250542,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3219466686,
+                3219466560,
+                3219466555,
+                3219466731
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 316800277,
+            "timestamp": "2014-12-11T14:50:25Z",
+            "version": 1,
+            "changeset": 27399886,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3229804566,
+                3229804449,
+                3229804431
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 316800278,
+            "timestamp": "2014-12-11T14:50:25Z",
+            "version": 1,
+            "changeset": 27399886,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3229804696,
+                3229804682,
+                3229804673
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 317033004,
+            "timestamp": "2014-12-13T06:51:57Z",
+            "version": 1,
+            "changeset": 27436377,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3232573844,
+                3232573805,
+                3232573785
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 322780068,
+            "timestamp": "2015-01-18T01:24:25Z",
+            "version": 1,
+            "changeset": 28222070,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3295686732,
+                3295686829,
+                3295686826,
+                3295686828,
+                3295686822
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 324596473,
+            "timestamp": "2015-01-26T22:41:05Z",
+            "version": 1,
+            "changeset": 28430509,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3313084842,
+                3313084830
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 387769259,
+            "timestamp": "2015-12-26T05:17:06Z",
+            "version": 1,
+            "changeset": 36170187,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3910179692,
+                3910179635,
+                3910179508,
+                3910179416,
+                3910179261,
+                3910179183
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 389307549,
+            "timestamp": "2016-01-03T01:40:18Z",
+            "version": 1,
+            "changeset": 36330277,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3924615857,
+                3924615783
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing"
+            }
+        },
+        {
+            "type": "way",
+            "id": 405828189,
+            "timestamp": "2025-05-12T13:29:13Z",
+            "version": 2,
+            "changeset": 166152915,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "nodes": [
+                4079792496,
+                12830345840
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 786480636,
+            "timestamp": "2020-04-02T23:50:29Z",
+            "version": 2,
+            "changeset": 83002961,
+            "user": "Rakkka",
+            "uid": 4954428,
+            "nodes": [
+                7353840981,
+                7353840980
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 786480637,
+            "timestamp": "2020-04-02T23:50:29Z",
+            "version": 2,
+            "changeset": 83002961,
+            "user": "Rakkka",
+            "uid": 4954428,
+            "nodes": [
+                7353840983,
+                7353840982
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 786480638,
+            "timestamp": "2020-04-02T23:50:29Z",
+            "version": 2,
+            "changeset": 83002961,
+            "user": "Rakkka",
+            "uid": 4954428,
+            "nodes": [
+                7353846285,
+                7353840984
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 786480639,
+            "timestamp": "2020-04-02T23:50:29Z",
+            "version": 2,
+            "changeset": 83002961,
+            "user": "Rakkka",
+            "uid": 4954428,
+            "nodes": [
+                7353846287,
+                7353846286
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 786480640,
+            "timestamp": "2020-04-02T23:50:29Z",
+            "version": 2,
+            "changeset": 83002961,
+            "user": "Rakkka",
+            "uid": 4954428,
+            "nodes": [
+                7353846289,
+                7353846288
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 786480641,
+            "timestamp": "2020-04-02T23:50:29Z",
+            "version": 2,
+            "changeset": 83002961,
+            "user": "Rakkka",
+            "uid": 4954428,
+            "nodes": [
+                7353846291,
+                7353846290
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1354583787,
+            "timestamp": "2025-01-27T07:32:31Z",
+            "version": 1,
+            "changeset": 161806353,
+            "user": "スペシャルマン",
+            "uid": 21072337,
+            "nodes": [
+                12535685885,
+                12535685886
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1385792373,
+            "timestamp": "2025-05-12T13:29:13Z",
+            "version": 1,
+            "changeset": 166152915,
+            "user": "okadatsuneo",
+            "uid": 10163840,
+            "nodes": [
+                12830345841,
+                4079792196
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423646025,
+            "timestamp": "2025-08-20T18:17:39Z",
+            "version": 1,
+            "changeset": 170741666,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13085047047,
+                13085047068,
+                13085047067,
+                13085047053,
+                13085047052,
+                13085047051,
+                13085047050,
+                13085047049,
+                13085047048,
+                13085047047
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三東駅前通商店街"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423646026,
+            "timestamp": "2025-08-21T16:37:29Z",
+            "version": 2,
+            "changeset": 170789968,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13085047085,
+                13085047084,
+                13085047082,
+                13085047081,
+                13085047080,
+                13085047079,
+                13085047078,
+                13085047077,
+                13085047076,
+                13085047073,
+                13085047071,
+                13085047070,
+                13085047069,
+                13085047072,
+                13085047074,
+                13085047075,
+                13085047085
+            ],
+            "tags": {
+                "alt_name": "波平通り",
+                "landuse": "retail",
+                "name": "十三駅前西商店会"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423646027,
+            "timestamp": "2025-08-20T18:17:39Z",
+            "version": 1,
+            "changeset": 170741666,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13085047098,
+                13085047097,
+                13085047092,
+                13085047091,
+                13085047090,
+                13085047096,
+                13085047095,
+                13085047094,
+                13085047093,
+                13085047087,
+                13085047086,
+                13085047098
+            ],
+            "tags": {
+                "alt_name": "つばめ通り",
+                "landuse": "retail",
+                "name": "十三東本通商店街"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423646028,
+            "timestamp": "2025-08-20T18:17:39Z",
+            "version": 1,
+            "changeset": 170741666,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13085047907,
+                13085047906,
+                13085047905,
+                13085047904,
+                13085047099,
+                13085047903,
+                13085047902,
+                13085047907
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三東三仲町通商店会"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423646029,
+            "timestamp": "2025-08-20T18:17:39Z",
+            "version": 1,
+            "changeset": 170741666,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13085047915,
+                13085047914,
+                13085047913,
+                13085047912,
+                13085047915
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三東二仲町商店会"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423646030,
+            "timestamp": "2025-08-20T18:17:39Z",
+            "version": 1,
+            "changeset": 170741666,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13085047940,
+                13085047939,
+                13085047938,
+                13085047937,
+                13085047936,
+                13085047935,
+                13085047934,
+                13085047933,
+                13085047932,
+                13085047931,
+                13085047930,
+                13085047929,
+                13085047928,
+                13085047927,
+                13085047926,
+                13085047925,
+                13085047924,
+                13085047923,
+                13085047922,
+                13085047921,
+                13085047920,
+                13085047919,
+                13085047918,
+                13085047917,
+                13085047916,
+                13085047940
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三駅前通商店街"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423646031,
+            "timestamp": "2025-08-20T18:17:39Z",
+            "version": 1,
+            "changeset": 170741666,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13085047971,
+                13085047970,
+                13085047969,
+                13085047968,
+                13085047967,
+                13085047966,
+                13085047965,
+                13085047964,
+                13085047963,
+                13085047962,
+                13085047961,
+                13085047960,
+                13085047959,
+                13085047958,
+                13085047957,
+                13085047956,
+                13085047955,
+                13085047954,
+                13085047953,
+                13085047952,
+                13085047951,
+                13085047950,
+                13085047949,
+                13085047948,
+                13085047947,
+                13085047946,
+                13085047945,
+                13085047944,
+                13085047943,
+                13085047942,
+                13085047941,
+                13085047971
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三トミータウン商店会"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423931900,
+            "timestamp": "2025-08-21T16:37:29Z",
+            "version": 1,
+            "changeset": 170789968,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13087243400,
+                13087243399,
+                13087243398,
+                13087243397,
+                13087243396,
+                13087243395,
+                13087243394,
+                13087243393,
+                13087243389,
+                13087243387,
+                13087243386,
+                13087243388,
+                13087243392,
+                13087243391,
+                13087243390,
+                13087243381,
+                13087243400
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三一番街商店会"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423931909,
+            "timestamp": "2025-08-21T16:37:29Z",
+            "version": 1,
+            "changeset": 170789968,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13087247940,
+                13087247939,
+                13087247938,
+                13087247935,
+                13087247937,
+                13087247940
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三 サカエマチ商店街"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423931911,
+            "timestamp": "2025-08-21T16:37:29Z",
+            "version": 1,
+            "changeset": 170789968,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13087248026,
+                13087248025,
+                13087248024,
+                13087248017,
+                13087248016,
+                13087248015,
+                13087248014,
+                13087248013,
+                13087248012,
+                13087248011,
+                13087248010,
+                13087248009,
+                13087248008,
+                13087248007,
+                13087248006,
+                13087248005,
+                13087248004,
+                13087248003,
+                13087248002,
+                13087248001,
+                13087248000,
+                13087247999,
+                13087247998,
+                13087247997,
+                13087247955,
+                13087247968,
+                13087247967,
+                13087247966,
+                13087247965,
+                13087247964,
+                13087247963,
+                13087247962,
+                13087247961,
+                13087247954,
+                13087247953,
+                13087247952,
+                13087247951,
+                13087247950,
+                13087247949,
+                13087247948,
+                13087247947,
+                13087247946,
+                13087247945,
+                13087247944,
+                13087247943,
+                13087247942,
+                13087247941,
+                13087248026
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三西栄町商店会"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423931917,
+            "timestamp": "2025-08-21T16:37:29Z",
+            "version": 1,
+            "changeset": 170789968,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13087248085,
+                13087248084,
+                13087248083,
+                13087248082,
+                13087248081,
+                13087248027,
+                13087248077,
+                13087248076,
+                13087248075,
+                13087248074,
+                13087248073,
+                13087248072,
+                13087248071,
+                13087248070,
+                13087248069,
+                13087248068,
+                13087248067,
+                13087248066,
+                13087248065,
+                13087248064,
+                13087248063,
+                13087248062,
+                13087248061,
+                13087248060,
+                13087248059,
+                13087248058,
+                13087248057,
+                13087248056,
+                13087248055,
+                13087248054,
+                13087248085
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三本町商店街"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1423931935,
+            "timestamp": "2025-08-21T16:37:29Z",
+            "version": 1,
+            "changeset": 170789968,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13087248256,
+                13087248255,
+                13087248131,
+                13087248130,
+                13087248254,
+                13087248174,
+                13087248173,
+                13087248253,
+                13087248252,
+                13087248251,
+                13087248250,
+                13087248249,
+                13087248248,
+                13087248247,
+                13087248246,
+                13087248245,
+                13087248244,
+                13087248243,
+                13087248242,
+                13087248241,
+                13087248240,
+                13087248239,
+                13087248238,
+                13087248256
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "十三元今里商店街"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1424430157,
+            "timestamp": "2025-08-23T16:12:48Z",
+            "version": 1,
+            "changeset": 170889047,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13092751541,
+                13092751542,
+                13092751543,
+                13092751544,
+                13092751545,
+                13092751546,
+                13092751547,
+                13092751548,
+                13092751549,
+                13092751550,
+                13092751541
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "⼗三栄⼩町商店会"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1424494566,
+            "timestamp": "2025-08-24T01:49:58Z",
+            "version": 1,
+            "changeset": 170904694,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                13093327101,
+                13093327102,
+                13093327103,
+                13093327104,
+                13093327101
+            ],
+            "tags": {
+                "landuse": "retail",
+                "name": "⼗三フレンドリー商店街"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3189525805,
+            "lat": 34.7139842,
+            "lon": 135.4787785
+        },
+        {
+            "type": "node",
+            "id": 3189525808,
+            "lat": 34.7145150,
+            "lon": 135.4796926
+        },
+        {
+            "type": "node",
+            "id": 3189525809,
+            "lat": 34.7145749,
+            "lon": 135.4797993
+        },
+        {
+            "type": "node",
+            "id": 3189525968,
+            "lat": 34.7150308,
+            "lon": 135.4805929
+        },
+        {
+            "type": "node",
+            "id": 3189526086,
+            "lat": 34.7155799,
+            "lon": 135.4815115
+        },
+        {
+            "type": "node",
+            "id": 3189526157,
+            "lat": 34.7159498,
+            "lon": 135.4821784
+        },
+        {
+            "type": "node",
+            "id": 3189526178,
+            "lat": 34.7160103,
+            "lon": 135.4822888
+        },
+        {
+            "type": "node",
+            "id": 3189526197,
+            "lat": 34.7160804,
+            "lon": 135.4824081
+        },
+        {
+            "type": "node",
+            "id": 3189526203,
+            "lat": 34.7161332,
+            "lon": 135.4825037
+        },
+        {
+            "type": "node",
+            "id": 3189526290,
+            "lat": 34.7164301,
+            "lon": 135.4830183
+        },
+        {
+            "type": "node",
+            "id": 3189534423,
+            "lat": 34.7158630,
+            "lon": 135.4791389
+        },
+        {
+            "type": "node",
+            "id": 3189534466,
+            "lat": 34.7160775,
+            "lon": 135.4790204
+        },
+        {
+            "type": "node",
+            "id": 3189534482,
+            "lat": 34.7161602,
+            "lon": 135.4796976
+        },
+        {
+            "type": "node",
+            "id": 3189534490,
+            "lat": 34.7161956,
+            "lon": 135.4789712
+        },
+        {
+            "type": "node",
+            "id": 3189534535,
+            "lat": 34.7163576,
+            "lon": 135.4795058
+        },
+        {
+            "type": "node",
+            "id": 3189534612,
+            "lat": 34.7168272,
+            "lon": 135.4787258
+        },
+        {
+            "type": "node",
+            "id": 3189708229,
+            "lat": 34.7155662,
+            "lon": 135.4781677
+        },
+        {
+            "type": "node",
+            "id": 3189708230,
+            "lat": 34.7157231,
+            "lon": 135.4787060
+        },
+        {
+            "type": "node",
+            "id": 3189708362,
+            "lat": 34.7217106,
+            "lon": 135.4798816
+        },
+        {
+            "type": "node",
+            "id": 3189708368,
+            "lat": 34.7220395,
+            "lon": 135.4797824
+        },
+        {
+            "type": "node",
+            "id": 3189708370,
+            "lat": 34.7220812,
+            "lon": 135.4798528
+        },
+        {
+            "type": "node",
+            "id": 3189708372,
+            "lat": 34.7221381,
+            "lon": 135.4801595
+        },
+        {
+            "type": "node",
+            "id": 3189708373,
+            "lat": 34.7221533,
+            "lon": 135.4797432
+        },
+        {
+            "type": "node",
+            "id": 3189708374,
+            "lat": 34.7223959,
+            "lon": 135.4796832
+        },
+        {
+            "type": "node",
+            "id": 3219466555,
+            "lat": 34.7120197,
+            "lon": 135.4740725
+        },
+        {
+            "type": "node",
+            "id": 3219466560,
+            "lat": 34.7120320,
+            "lon": 135.4740153
+        },
+        {
+            "type": "node",
+            "id": 3219466686,
+            "lat": 34.7121813,
+            "lon": 135.4738773
+        },
+        {
+            "type": "node",
+            "id": 3219466731,
+            "lat": 34.7124757,
+            "lon": 135.4748027
+        },
+        {
+            "type": "node",
+            "id": 3229804431,
+            "lat": 34.7194235,
+            "lon": 135.4771749
+        },
+        {
+            "type": "node",
+            "id": 3229804449,
+            "lat": 34.7195474,
+            "lon": 135.4771500
+        },
+        {
+            "type": "node",
+            "id": 3229804566,
+            "lat": 34.7196801,
+            "lon": 135.4771305
+        },
+        {
+            "type": "node",
+            "id": 3229804673,
+            "lat": 34.7210702,
+            "lon": 135.4774890
+        },
+        {
+            "type": "node",
+            "id": 3229804682,
+            "lat": 34.7211930,
+            "lon": 135.4770807
+        },
+        {
+            "type": "node",
+            "id": 3229804696,
+            "lat": 34.7213596,
+            "lon": 135.4770731
+        },
+        {
+            "type": "node",
+            "id": 3232573785,
+            "lat": 34.7234524,
+            "lon": 135.4802169
+        },
+        {
+            "type": "node",
+            "id": 3232573805,
+            "lat": 34.7237157,
+            "lon": 135.4800669
+        },
+        {
+            "type": "node",
+            "id": 3232573844,
+            "lat": 34.7244196,
+            "lon": 135.4796059
+        },
+        {
+            "type": "node",
+            "id": 3295686732,
+            "lat": 34.7192711,
+            "lon": 135.4736188
+        },
+        {
+            "type": "node",
+            "id": 3295686822,
+            "lat": 34.7196777,
+            "lon": 135.4731063
+        },
+        {
+            "type": "node",
+            "id": 3295686826,
+            "lat": 34.7196846,
+            "lon": 135.4733134
+        },
+        {
+            "type": "node",
+            "id": 3295686828,
+            "lat": 34.7197007,
+            "lon": 135.4733108
+        },
+        {
+            "type": "node",
+            "id": 3295686829,
+            "lat": 34.7197049,
+            "lon": 135.4735645
+        },
+        {
+            "type": "node",
+            "id": 3313084830,
+            "lat": 34.7218659,
+            "lon": 135.4749700
+        },
+        {
+            "type": "node",
+            "id": 3313084842,
+            "lat": 34.7220657,
+            "lon": 135.4746187
+        },
+        {
+            "type": "node",
+            "id": 3910179183,
+            "lat": 34.7235134,
+            "lon": 135.4639249
+        },
+        {
+            "type": "node",
+            "id": 3910179261,
+            "lat": 34.7237373,
+            "lon": 135.4638434
+        },
+        {
+            "type": "node",
+            "id": 3910179416,
+            "lat": 34.7239498,
+            "lon": 135.4638422
+        },
+        {
+            "type": "node",
+            "id": 3910179508,
+            "lat": 34.7240886,
+            "lon": 135.4638864
+        },
+        {
+            "type": "node",
+            "id": 3910179635,
+            "lat": 34.7243212,
+            "lon": 135.4640926
+        },
+        {
+            "type": "node",
+            "id": 3910179692,
+            "lat": 34.7244888,
+            "lon": 135.4644361
+        },
+        {
+            "type": "node",
+            "id": 3924615783,
+            "lat": 34.7218811,
+            "lon": 135.4712965
+        },
+        {
+            "type": "node",
+            "id": 3924615857,
+            "lat": 34.7220693,
+            "lon": 135.4717962
+        },
+        {
+            "type": "node",
+            "id": 4079792196,
+            "lat": 34.7117418,
+            "lon": 135.4657845
+        },
+        {
+            "type": "node",
+            "id": 4079792496,
+            "lat": 34.7121275,
+            "lon": 135.4660586
+        },
+        {
+            "type": "node",
+            "id": 7353840980,
+            "lat": 34.7172398,
+            "lon": 135.4628782
+        },
+        {
+            "type": "node",
+            "id": 7353840981,
+            "lat": 34.7168683,
+            "lon": 135.4615411
+        },
+        {
+            "type": "node",
+            "id": 7353840982,
+            "lat": 34.7175628,
+            "lon": 135.4642327
+        },
+        {
+            "type": "node",
+            "id": 7353840983,
+            "lat": 34.7173015,
+            "lon": 135.4632752
+        },
+        {
+            "type": "node",
+            "id": 7353840984,
+            "lat": 34.7176851,
+            "lon": 135.4642636
+        },
+        {
+            "type": "node",
+            "id": 7353846285,
+            "lat": 34.7174040,
+            "lon": 135.4632698
+        },
+        {
+            "type": "node",
+            "id": 7353846286,
+            "lat": 34.7182534,
+            "lon": 135.4664127
+        },
+        {
+            "type": "node",
+            "id": 7353846287,
+            "lat": 34.7182341,
+            "lon": 135.4662866
+        },
+        {
+            "type": "node",
+            "id": 7353846288,
+            "lat": 34.7181746,
+            "lon": 135.4662980
+        },
+        {
+            "type": "node",
+            "id": 7353846289,
+            "lat": 34.7178108,
+            "lon": 135.4649569
+        },
+        {
+            "type": "node",
+            "id": 7353846290,
+            "lat": 34.7182980,
+            "lon": 135.4663409
+        },
+        {
+            "type": "node",
+            "id": 7353846291,
+            "lat": 34.7179166,
+            "lon": 135.4649059
+        },
+        {
+            "type": "node",
+            "id": 12535685885,
+            "lat": 34.7135644,
+            "lon": 135.4614481
+        },
+        {
+            "type": "node",
+            "id": 12535685886,
+            "lat": 34.7135151,
+            "lon": 135.4612586
+        },
+        {
+            "type": "node",
+            "id": 12830345840,
+            "lat": 34.7119241,
+            "lon": 135.4661411
+        },
+        {
+            "type": "node",
+            "id": 12830345841,
+            "lat": 34.7118364,
+            "lon": 135.4660928
+        },
+        {
+            "type": "node",
+            "id": 13085047047,
+            "lat": 34.7199427,
+            "lon": 135.4829270
+        },
+        {
+            "type": "node",
+            "id": 13085047048,
+            "lat": 34.7203382,
+            "lon": 135.4828737
+        },
+        {
+            "type": "node",
+            "id": 13085047049,
+            "lat": 34.7207025,
+            "lon": 135.4828742
+        },
+        {
+            "type": "node",
+            "id": 13085047050,
+            "lat": 34.7206949,
+            "lon": 135.4829678
+        },
+        {
+            "type": "node",
+            "id": 13085047051,
+            "lat": 34.7206897,
+            "lon": 135.4829666
+        },
+        {
+            "type": "node",
+            "id": 13085047052,
+            "lat": 34.7206585,
+            "lon": 135.4829349
+        },
+        {
+            "type": "node",
+            "id": 13085047053,
+            "lat": 34.7204892,
+            "lon": 135.4829388
+        },
+        {
+            "type": "node",
+            "id": 13085047067,
+            "lat": 34.7203345,
+            "lon": 135.4829472
+        },
+        {
+            "type": "node",
+            "id": 13085047068,
+            "lat": 34.7198946,
+            "lon": 135.4830058
+        },
+        {
+            "type": "node",
+            "id": 13085047069,
+            "lat": 34.7192722,
+            "lon": 135.4818617
+        },
+        {
+            "type": "node",
+            "id": 13085047070,
+            "lat": 34.7192430,
+            "lon": 135.4818759
+        },
+        {
+            "type": "node",
+            "id": 13085047071,
+            "lat": 34.7192561,
+            "lon": 135.4821088
+        },
+        {
+            "type": "node",
+            "id": 13085047072,
+            "lat": 34.7192885,
+            "lon": 135.4820927
+        },
+        {
+            "type": "node",
+            "id": 13085047073,
+            "lat": 34.7192970,
+            "lon": 135.4822322
+        },
+        {
+            "type": "node",
+            "id": 13085047074,
+            "lat": 34.7193236,
+            "lon": 135.4822174
+        },
+        {
+            "type": "node",
+            "id": 13085047075,
+            "lat": 34.7193484,
+            "lon": 135.4822389
+        },
+        {
+            "type": "node",
+            "id": 13085047076,
+            "lat": 34.7192958,
+            "lon": 135.4822654
+        },
+        {
+            "type": "node",
+            "id": 13085047077,
+            "lat": 34.7188875,
+            "lon": 135.4824754
+        },
+        {
+            "type": "node",
+            "id": 13085047078,
+            "lat": 34.7188489,
+            "lon": 135.4824919
+        },
+        {
+            "type": "node",
+            "id": 13085047079,
+            "lat": 34.7188473,
+            "lon": 135.4825437
+        },
+        {
+            "type": "node",
+            "id": 13085047080,
+            "lat": 34.7188682,
+            "lon": 135.4825589
+        },
+        {
+            "type": "node",
+            "id": 13085047081,
+            "lat": 34.7188718,
+            "lon": 135.4825675
+        },
+        {
+            "type": "node",
+            "id": 13085047082,
+            "lat": 34.7196662,
+            "lon": 135.4821229
+        },
+        {
+            "type": "node",
+            "id": 13085047084,
+            "lat": 34.7196906,
+            "lon": 135.4821206
+        },
+        {
+            "type": "node",
+            "id": 13085047085,
+            "lat": 34.7196886,
+            "lon": 135.4820646
+        },
+        {
+            "type": "node",
+            "id": 13085047086,
+            "lat": 34.7224846,
+            "lon": 135.4841737
+        },
+        {
+            "type": "node",
+            "id": 13085047087,
+            "lat": 34.7228608,
+            "lon": 135.4851261
+        },
+        {
+            "type": "node",
+            "id": 13085047090,
+            "lat": 34.7226347,
+            "lon": 135.4846616
+        },
+        {
+            "type": "node",
+            "id": 13085047091,
+            "lat": 34.7223861,
+            "lon": 135.4840376
+        },
+        {
+            "type": "node",
+            "id": 13085047092,
+            "lat": 34.7222783,
+            "lon": 135.4837743
+        },
+        {
+            "type": "node",
+            "id": 13085047093,
+            "lat": 34.7234521,
+            "lon": 135.4866335
+        },
+        {
+            "type": "node",
+            "id": 13085047094,
+            "lat": 34.7234389,
+            "lon": 135.4866536
+        },
+        {
+            "type": "node",
+            "id": 13085047095,
+            "lat": 34.7233783,
+            "lon": 135.4866436
+        },
+        {
+            "type": "node",
+            "id": 13085047096,
+            "lat": 34.7233816,
+            "lon": 135.4865611
+        },
+        {
+            "type": "node",
+            "id": 13085047097,
+            "lat": 34.7221030,
+            "lon": 135.4833465
+        },
+        {
+            "type": "node",
+            "id": 13085047098,
+            "lat": 34.7221470,
+            "lon": 135.4833384
+        },
+        {
+            "type": "node",
+            "id": 13085047099,
+            "lat": 34.7216466,
+            "lon": 135.4833818
+        },
+        {
+            "type": "node",
+            "id": 13085047902,
+            "lat": 34.7220804,
+            "lon": 135.4832804
+        },
+        {
+            "type": "node",
+            "id": 13085047903,
+            "lat": 34.7220842,
+            "lon": 135.4833525
+        },
+        {
+            "type": "node",
+            "id": 13085047904,
+            "lat": 34.7212013,
+            "lon": 135.4834169
+        },
+        {
+            "type": "node",
+            "id": 13085047905,
+            "lat": 34.7211142,
+            "lon": 135.4834246
+        },
+        {
+            "type": "node",
+            "id": 13085047906,
+            "lat": 34.7207902,
+            "lon": 135.4834605
+        },
+        {
+            "type": "node",
+            "id": 13085047907,
+            "lat": 34.7207841,
+            "lon": 135.4833826
+        },
+        {
+            "type": "node",
+            "id": 13085047912,
+            "lat": 34.7207770,
+            "lon": 135.4833825
+        },
+        {
+            "type": "node",
+            "id": 13085047913,
+            "lat": 34.7207836,
+            "lon": 135.4834613
+        },
+        {
+            "type": "node",
+            "id": 13085047914,
+            "lat": 34.7198146,
+            "lon": 135.4835877
+        },
+        {
+            "type": "node",
+            "id": 13085047915,
+            "lat": 34.7198127,
+            "lon": 135.4834999
+        },
+        {
+            "type": "node",
+            "id": 13085047916,
+            "lat": 34.7197816,
+            "lon": 135.4834691
+        },
+        {
+            "type": "node",
+            "id": 13085047917,
+            "lat": 34.7198079,
+            "lon": 135.4834978
+        },
+        {
+            "type": "node",
+            "id": 13085047918,
+            "lat": 34.7198121,
+            "lon": 135.4835973
+        },
+        {
+            "type": "node",
+            "id": 13085047919,
+            "lat": 34.7197901,
+            "lon": 135.4836304
+        },
+        {
+            "type": "node",
+            "id": 13085047920,
+            "lat": 34.7197912,
+            "lon": 135.4838012
+        },
+        {
+            "type": "node",
+            "id": 13085047921,
+            "lat": 34.7197928,
+            "lon": 135.4838700
+        },
+        {
+            "type": "node",
+            "id": 13085047922,
+            "lat": 34.7198333,
+            "lon": 135.4841563
+        },
+        {
+            "type": "node",
+            "id": 13085047923,
+            "lat": 34.7198572,
+            "lon": 135.4841788
+        },
+        {
+            "type": "node",
+            "id": 13085047924,
+            "lat": 34.7199343,
+            "lon": 135.4841652
+        },
+        {
+            "type": "node",
+            "id": 13085047925,
+            "lat": 34.7199409,
+            "lon": 135.4842107
+        },
+        {
+            "type": "node",
+            "id": 13085047926,
+            "lat": 34.7199468,
+            "lon": 135.4842520
+        },
+        {
+            "type": "node",
+            "id": 13085047927,
+            "lat": 34.7198774,
+            "lon": 135.4842642
+        },
+        {
+            "type": "node",
+            "id": 13085047928,
+            "lat": 34.7198547,
+            "lon": 135.4843022
+        },
+        {
+            "type": "node",
+            "id": 13085047929,
+            "lat": 34.7198879,
+            "lon": 135.4845264
+        },
+        {
+            "type": "node",
+            "id": 13085047930,
+            "lat": 34.7198387,
+            "lon": 135.4844875
+        },
+        {
+            "type": "node",
+            "id": 13085047931,
+            "lat": 34.7198092,
+            "lon": 135.4844609
+        },
+        {
+            "type": "node",
+            "id": 13085047932,
+            "lat": 34.7197253,
+            "lon": 135.4838658
+        },
+        {
+            "type": "node",
+            "id": 13085047933,
+            "lat": 34.7197166,
+            "lon": 135.4835991
+        },
+        {
+            "type": "node",
+            "id": 13085047934,
+            "lat": 34.7194117,
+            "lon": 135.4836182
+        },
+        {
+            "type": "node",
+            "id": 13085047935,
+            "lat": 34.7194103,
+            "lon": 135.4835727
+        },
+        {
+            "type": "node",
+            "id": 13085047936,
+            "lat": 34.7194091,
+            "lon": 135.4835286
+        },
+        {
+            "type": "node",
+            "id": 13085047937,
+            "lat": 34.7197137,
+            "lon": 135.4835169
+        },
+        {
+            "type": "node",
+            "id": 13085047938,
+            "lat": 34.7196951,
+            "lon": 135.4829564
+        },
+        {
+            "type": "node",
+            "id": 13085047939,
+            "lat": 34.7197326,
+            "lon": 135.4829864
+        },
+        {
+            "type": "node",
+            "id": 13085047940,
+            "lat": 34.7197677,
+            "lon": 135.4830144
+        },
+        {
+            "type": "node",
+            "id": 13085047941,
+            "lat": 34.7199050,
+            "lon": 135.4815370
+        },
+        {
+            "type": "node",
+            "id": 13085047942,
+            "lat": 34.7207240,
+            "lon": 135.4816602
+        },
+        {
+            "type": "node",
+            "id": 13085047943,
+            "lat": 34.7207197,
+            "lon": 135.4817117
+        },
+        {
+            "type": "node",
+            "id": 13085047944,
+            "lat": 34.7207119,
+            "lon": 135.4817242
+        },
+        {
+            "type": "node",
+            "id": 13085047945,
+            "lat": 34.7206190,
+            "lon": 135.4817392
+        },
+        {
+            "type": "node",
+            "id": 13085047946,
+            "lat": 34.7203751,
+            "lon": 135.4818060
+        },
+        {
+            "type": "node",
+            "id": 13085047947,
+            "lat": 34.7198269,
+            "lon": 135.4820522
+        },
+        {
+            "type": "node",
+            "id": 13085047948,
+            "lat": 34.7198084,
+            "lon": 135.4820923
+        },
+        {
+            "type": "node",
+            "id": 13085047949,
+            "lat": 34.7198335,
+            "lon": 135.4822334
+        },
+        {
+            "type": "node",
+            "id": 13085047950,
+            "lat": 34.7197586,
+            "lon": 135.4822697
+        },
+        {
+            "type": "node",
+            "id": 13085047951,
+            "lat": 34.7197588,
+            "lon": 135.4823165
+        },
+        {
+            "type": "node",
+            "id": 13085047952,
+            "lat": 34.7197147,
+            "lon": 135.4823173
+        },
+        {
+            "type": "node",
+            "id": 13085047953,
+            "lat": 34.7197034,
+            "lon": 135.4821463
+        },
+        {
+            "type": "node",
+            "id": 13085047954,
+            "lat": 34.7196922,
+            "lon": 135.4821292
+        },
+        {
+            "type": "node",
+            "id": 13085047955,
+            "lat": 34.7196903,
+            "lon": 135.4820637
+        },
+        {
+            "type": "node",
+            "id": 13085047956,
+            "lat": 34.7197127,
+            "lon": 135.4820268
+        },
+        {
+            "type": "node",
+            "id": 13085047957,
+            "lat": 34.7196970,
+            "lon": 135.4815837
+        },
+        {
+            "type": "node",
+            "id": 13085047958,
+            "lat": 34.7197103,
+            "lon": 135.4815752
+        },
+        {
+            "type": "node",
+            "id": 13085047959,
+            "lat": 34.7197543,
+            "lon": 135.4815714
+        },
+        {
+            "type": "node",
+            "id": 13085047960,
+            "lat": 34.7197858,
+            "lon": 135.4819918
+        },
+        {
+            "type": "node",
+            "id": 13085047961,
+            "lat": 34.7198060,
+            "lon": 135.4820149
+        },
+        {
+            "type": "node",
+            "id": 13085047962,
+            "lat": 34.7204170,
+            "lon": 135.4817542
+        },
+        {
+            "type": "node",
+            "id": 13085047963,
+            "lat": 34.7206872,
+            "lon": 135.4816929
+        },
+        {
+            "type": "node",
+            "id": 13085047964,
+            "lat": 34.7206869,
+            "lon": 135.4816810
+        },
+        {
+            "type": "node",
+            "id": 13085047965,
+            "lat": 34.7204842,
+            "lon": 135.4816483
+        },
+        {
+            "type": "node",
+            "id": 13085047966,
+            "lat": 34.7201985,
+            "lon": 135.4816047
+        },
+        {
+            "type": "node",
+            "id": 13085047967,
+            "lat": 34.7199036,
+            "lon": 135.4815608
+        },
+        {
+            "type": "node",
+            "id": 13085047968,
+            "lat": 34.7198069,
+            "lon": 135.4815534
+        },
+        {
+            "type": "node",
+            "id": 13085047969,
+            "lat": 34.7197599,
+            "lon": 135.4815650
+        },
+        {
+            "type": "node",
+            "id": 13085047970,
+            "lat": 34.7197615,
+            "lon": 135.4815365
+        },
+        {
+            "type": "node",
+            "id": 13085047971,
+            "lat": 34.7197749,
+            "lon": 135.4815259
+        },
+        {
+            "type": "node",
+            "id": 13087243381,
+            "lat": 34.7178942,
+            "lon": 135.4793660
+        },
+        {
+            "type": "node",
+            "id": 13087243386,
+            "lat": 34.7180824,
+            "lon": 135.4809172
+        },
+        {
+            "type": "node",
+            "id": 13087243387,
+            "lat": 34.7180459,
+            "lon": 135.4808550
+        },
+        {
+            "type": "node",
+            "id": 13087243388,
+            "lat": 34.7183917,
+            "lon": 135.4806213
+        },
+        {
+            "type": "node",
+            "id": 13087243389,
+            "lat": 34.7183778,
+            "lon": 135.4805181
+        },
+        {
+            "type": "node",
+            "id": 13087243390,
+            "lat": 34.7190030,
+            "lon": 135.4816463
+        },
+        {
+            "type": "node",
+            "id": 13087243391,
+            "lat": 34.7189495,
+            "lon": 135.4816858
+        },
+        {
+            "type": "node",
+            "id": 13087243392,
+            "lat": 34.7184320,
+            "lon": 135.4806281
+        },
+        {
+            "type": "node",
+            "id": 13087243393,
+            "lat": 34.7181622,
+            "lon": 135.4800675
+        },
+        {
+            "type": "node",
+            "id": 13087243394,
+            "lat": 34.7181208,
+            "lon": 135.4800591
+        },
+        {
+            "type": "node",
+            "id": 13087243395,
+            "lat": 34.7178133,
+            "lon": 135.4803538
+        },
+        {
+            "type": "node",
+            "id": 13087243396,
+            "lat": 34.7177797,
+            "lon": 135.4802877
+        },
+        {
+            "type": "node",
+            "id": 13087243397,
+            "lat": 34.7180908,
+            "lon": 135.4799930
+        },
+        {
+            "type": "node",
+            "id": 13087243398,
+            "lat": 34.7180982,
+            "lon": 135.4799474
+        },
+        {
+            "type": "node",
+            "id": 13087243399,
+            "lat": 34.7176581,
+            "lon": 135.4790328
+        },
+        {
+            "type": "node",
+            "id": 13087243400,
+            "lat": 34.7177094,
+            "lon": 135.4789976
+        },
+        {
+            "type": "node",
+            "id": 13087247935,
+            "lat": 34.7190758,
+            "lon": 135.4808423
+        },
+        {
+            "type": "node",
+            "id": 13087247937,
+            "lat": 34.7190212,
+            "lon": 135.4800343
+        },
+        {
+            "type": "node",
+            "id": 13087247938,
+            "lat": 34.7191055,
+            "lon": 135.4815507
+        },
+        {
+            "type": "node",
+            "id": 13087247939,
+            "lat": 34.7191893,
+            "lon": 135.4814907
+        },
+        {
+            "type": "node",
+            "id": 13087247940,
+            "lat": 34.7191105,
+            "lon": 135.4800009
+        },
+        {
+            "type": "node",
+            "id": 13087247941,
+            "lat": 34.7197790,
+            "lon": 135.4798177
+        },
+        {
+            "type": "node",
+            "id": 13087247942,
+            "lat": 34.7200215,
+            "lon": 135.4798267
+        },
+        {
+            "type": "node",
+            "id": 13087247943,
+            "lat": 34.7200053,
+            "lon": 135.4799116
+        },
+        {
+            "type": "node",
+            "id": 13087247944,
+            "lat": 34.7197876,
+            "lon": 135.4799005
+        },
+        {
+            "type": "node",
+            "id": 13087247945,
+            "lat": 34.7194949,
+            "lon": 135.4799431
+        },
+        {
+            "type": "node",
+            "id": 13087247946,
+            "lat": 34.7191455,
+            "lon": 135.4799857
+        },
+        {
+            "type": "node",
+            "id": 13087247947,
+            "lat": 34.7189873,
+            "lon": 135.4800417
+        },
+        {
+            "type": "node",
+            "id": 13087247948,
+            "lat": 34.7184777,
+            "lon": 135.4805402
+        },
+        {
+            "type": "node",
+            "id": 13087247949,
+            "lat": 34.7184334,
+            "lon": 135.4804631
+        },
+        {
+            "type": "node",
+            "id": 13087247950,
+            "lat": 34.7185382,
+            "lon": 135.4803603
+        },
+        {
+            "type": "node",
+            "id": 13087247951,
+            "lat": 34.7185422,
+            "lon": 135.4803684
+        },
+        {
+            "type": "node",
+            "id": 13087247952,
+            "lat": 34.7189060,
+            "lon": 135.4800200
+        },
+        {
+            "type": "node",
+            "id": 13087247953,
+            "lat": 34.7189086,
+            "lon": 135.4799865
+        },
+        {
+            "type": "node",
+            "id": 13087247954,
+            "lat": 34.7188875,
+            "lon": 135.4799511
+        },
+        {
+            "type": "node",
+            "id": 13087247955,
+            "lat": 34.7183599,
+            "lon": 135.4798239
+        },
+        {
+            "type": "node",
+            "id": 13087247961,
+            "lat": 34.7183893,
+            "lon": 135.4799847
+        },
+        {
+            "type": "node",
+            "id": 13087247962,
+            "lat": 34.7183325,
+            "lon": 135.4798868
+        },
+        {
+            "type": "node",
+            "id": 13087247963,
+            "lat": 34.7183071,
+            "lon": 135.4798804
+        },
+        {
+            "type": "node",
+            "id": 13087247964,
+            "lat": 34.7182013,
+            "lon": 135.4799840
+        },
+        {
+            "type": "node",
+            "id": 13087247965,
+            "lat": 34.7181644,
+            "lon": 135.4799146
+        },
+        {
+            "type": "node",
+            "id": 13087247966,
+            "lat": 34.7187076,
+            "lon": 135.4793828
+        },
+        {
+            "type": "node",
+            "id": 13087247967,
+            "lat": 34.7187653,
+            "lon": 135.4793418
+        },
+        {
+            "type": "node",
+            "id": 13087247968,
+            "lat": 34.7187992,
+            "lon": 135.4794063
+        },
+        {
+            "type": "node",
+            "id": 13087247997,
+            "lat": 34.7183577,
+            "lon": 135.4798559
+        },
+        {
+            "type": "node",
+            "id": 13087247998,
+            "lat": 34.7184165,
+            "lon": 135.4799427
+        },
+        {
+            "type": "node",
+            "id": 13087247999,
+            "lat": 34.7190162,
+            "lon": 135.4799116
+        },
+        {
+            "type": "node",
+            "id": 13087248000,
+            "lat": 34.7190272,
+            "lon": 135.4798646
+        },
+        {
+            "type": "node",
+            "id": 13087248001,
+            "lat": 34.7188269,
+            "lon": 135.4794211
+        },
+        {
+            "type": "node",
+            "id": 13087248002,
+            "lat": 34.7185918,
+            "lon": 135.4788895
+        },
+        {
+            "type": "node",
+            "id": 13087248003,
+            "lat": 34.7184174,
+            "lon": 135.4785051
+        },
+        {
+            "type": "node",
+            "id": 13087248004,
+            "lat": 34.7185003,
+            "lon": 135.4784545
+        },
+        {
+            "type": "node",
+            "id": 13087248005,
+            "lat": 34.7186197,
+            "lon": 135.4787176
+        },
+        {
+            "type": "node",
+            "id": 13087248006,
+            "lat": 34.7186414,
+            "lon": 135.4787294
+        },
+        {
+            "type": "node",
+            "id": 13087248007,
+            "lat": 34.7192758,
+            "lon": 135.4786556
+        },
+        {
+            "type": "node",
+            "id": 13087248008,
+            "lat": 34.7192827,
+            "lon": 135.4787156
+        },
+        {
+            "type": "node",
+            "id": 13087248009,
+            "lat": 34.7186869,
+            "lon": 135.4787800
+        },
+        {
+            "type": "node",
+            "id": 13087248010,
+            "lat": 34.7186676,
+            "lon": 135.4788202
+        },
+        {
+            "type": "node",
+            "id": 13087248011,
+            "lat": 34.7188732,
+            "lon": 135.4792779
+        },
+        {
+            "type": "node",
+            "id": 13087248012,
+            "lat": 34.7188991,
+            "lon": 135.4792947
+        },
+        {
+            "type": "node",
+            "id": 13087248013,
+            "lat": 34.7193560,
+            "lon": 135.4792115
+        },
+        {
+            "type": "node",
+            "id": 13087248014,
+            "lat": 34.7193681,
+            "lon": 135.4792983
+        },
+        {
+            "type": "node",
+            "id": 13087248015,
+            "lat": 34.7189491,
+            "lon": 135.4793733
+        },
+        {
+            "type": "node",
+            "id": 13087248016,
+            "lat": 34.7189334,
+            "lon": 135.4794112
+        },
+        {
+            "type": "node",
+            "id": 13087248017,
+            "lat": 34.7190453,
+            "lon": 135.4796720
+        },
+        {
+            "type": "node",
+            "id": 13087248024,
+            "lat": 34.7190804,
+            "lon": 135.4797590
+        },
+        {
+            "type": "node",
+            "id": 13087248025,
+            "lat": 34.7191419,
+            "lon": 135.4798998
+        },
+        {
+            "type": "node",
+            "id": 13087248026,
+            "lat": 34.7194549,
+            "lon": 135.4798814
+        },
+        {
+            "type": "node",
+            "id": 13087248027,
+            "lat": 34.7194851,
+            "lon": 135.4798691
+        },
+        {
+            "type": "node",
+            "id": 13087248054,
+            "lat": 34.7194029,
+            "lon": 135.4783145
+        },
+        {
+            "type": "node",
+            "id": 13087248055,
+            "lat": 34.7194045,
+            "lon": 135.4782701
+        },
+        {
+            "type": "node",
+            "id": 13087248056,
+            "lat": 34.7192777,
+            "lon": 135.4782535
+        },
+        {
+            "type": "node",
+            "id": 13087248057,
+            "lat": 34.7192762,
+            "lon": 135.4783017
+        },
+        {
+            "type": "node",
+            "id": 13087248058,
+            "lat": 34.7192827,
+            "lon": 135.4783027
+        },
+        {
+            "type": "node",
+            "id": 13087248059,
+            "lat": 34.7192990,
+            "lon": 135.4783244
+        },
+        {
+            "type": "node",
+            "id": 13087248060,
+            "lat": 34.7193010,
+            "lon": 135.4784813
+        },
+        {
+            "type": "node",
+            "id": 13087248061,
+            "lat": 34.7192933,
+            "lon": 135.4784900
+        },
+        {
+            "type": "node",
+            "id": 13087248062,
+            "lat": 34.7192926,
+            "lon": 135.4785629
+        },
+        {
+            "type": "node",
+            "id": 13087248063,
+            "lat": 34.7192812,
+            "lon": 135.4785503
+        },
+        {
+            "type": "node",
+            "id": 13087248064,
+            "lat": 34.7192805,
+            "lon": 135.4785877
+        },
+        {
+            "type": "node",
+            "id": 13087248065,
+            "lat": 34.7192987,
+            "lon": 135.4786028
+        },
+        {
+            "type": "node",
+            "id": 13087248066,
+            "lat": 34.7193010,
+            "lon": 135.4786204
+        },
+        {
+            "type": "node",
+            "id": 13087248067,
+            "lat": 34.7192768,
+            "lon": 135.4786241
+        },
+        {
+            "type": "node",
+            "id": 13087248068,
+            "lat": 34.7192860,
+            "lon": 135.4787156
+        },
+        {
+            "type": "node",
+            "id": 13087248069,
+            "lat": 34.7193169,
+            "lon": 135.4787106
+        },
+        {
+            "type": "node",
+            "id": 13087248070,
+            "lat": 34.7193833,
+            "lon": 135.4791780
+        },
+        {
+            "type": "node",
+            "id": 13087248071,
+            "lat": 34.7193601,
+            "lon": 135.4792112
+        },
+        {
+            "type": "node",
+            "id": 13087248072,
+            "lat": 34.7193720,
+            "lon": 135.4792957
+        },
+        {
+            "type": "node",
+            "id": 13087248073,
+            "lat": 34.7194040,
+            "lon": 135.4793235
+        },
+        {
+            "type": "node",
+            "id": 13087248074,
+            "lat": 34.7194431,
+            "lon": 135.4796031
+        },
+        {
+            "type": "node",
+            "id": 13087248075,
+            "lat": 34.7194205,
+            "lon": 135.4796096
+        },
+        {
+            "type": "node",
+            "id": 13087248076,
+            "lat": 34.7194256,
+            "lon": 135.4796457
+        },
+        {
+            "type": "node",
+            "id": 13087248077,
+            "lat": 34.7194530,
+            "lon": 135.4796594
+        },
+        {
+            "type": "node",
+            "id": 13087248081,
+            "lat": 34.7195504,
+            "lon": 135.4798589
+        },
+        {
+            "type": "node",
+            "id": 13087248082,
+            "lat": 34.7194153,
+            "lon": 135.4788932
+        },
+        {
+            "type": "node",
+            "id": 13087248083,
+            "lat": 34.7194077,
+            "lon": 135.4788380
+        },
+        {
+            "type": "node",
+            "id": 13087248084,
+            "lat": 34.7193701,
+            "lon": 135.4785733
+        },
+        {
+            "type": "node",
+            "id": 13087248085,
+            "lat": 34.7193713,
+            "lon": 135.4783487
+        },
+        {
+            "type": "node",
+            "id": 13087248130,
+            "lat": 34.7192598,
+            "lon": 135.4771012
+        },
+        {
+            "type": "node",
+            "id": 13087248131,
+            "lat": 34.7192668,
+            "lon": 135.4771007
+        },
+        {
+            "type": "node",
+            "id": 13087248173,
+            "lat": 34.7192194,
+            "lon": 135.4771571
+        },
+        {
+            "type": "node",
+            "id": 13087248174,
+            "lat": 34.7192190,
+            "lon": 135.4771468
+        },
+        {
+            "type": "node",
+            "id": 13087248238,
+            "lat": 34.7192893,
+            "lon": 135.4762430
+        },
+        {
+            "type": "node",
+            "id": 13087248239,
+            "lat": 34.7193089,
+            "lon": 135.4762683
+        },
+        {
+            "type": "node",
+            "id": 13087248240,
+            "lat": 34.7193356,
+            "lon": 135.4762678
+        },
+        {
+            "type": "node",
+            "id": 13087248241,
+            "lat": 34.7193364,
+            "lon": 135.4763278
+        },
+        {
+            "type": "node",
+            "id": 13087248242,
+            "lat": 34.7193063,
+            "lon": 135.4763291
+        },
+        {
+            "type": "node",
+            "id": 13087248243,
+            "lat": 34.7192930,
+            "lon": 135.4763472
+        },
+        {
+            "type": "node",
+            "id": 13087248244,
+            "lat": 34.7193262,
+            "lon": 135.4771254
+        },
+        {
+            "type": "node",
+            "id": 13087248245,
+            "lat": 34.7193734,
+            "lon": 135.4771144
+        },
+        {
+            "type": "node",
+            "id": 13087248246,
+            "lat": 34.7193805,
+            "lon": 135.4771600
+        },
+        {
+            "type": "node",
+            "id": 13087248247,
+            "lat": 34.7193403,
+            "lon": 135.4771663
+        },
+        {
+            "type": "node",
+            "id": 13087248248,
+            "lat": 34.7193249,
+            "lon": 135.4771891
+        },
+        {
+            "type": "node",
+            "id": 13087248249,
+            "lat": 34.7193794,
+            "lon": 135.4780887
+        },
+        {
+            "type": "node",
+            "id": 13087248250,
+            "lat": 34.7193307,
+            "lon": 135.4780836
+        },
+        {
+            "type": "node",
+            "id": 13087248251,
+            "lat": 34.7192779,
+            "lon": 135.4771809
+        },
+        {
+            "type": "node",
+            "id": 13087248252,
+            "lat": 34.7192168,
+            "lon": 135.4771922
+        },
+        {
+            "type": "node",
+            "id": 13087248253,
+            "lat": 34.7192145,
+            "lon": 135.4771575
+        },
+        {
+            "type": "node",
+            "id": 13087248254,
+            "lat": 34.7192616,
+            "lon": 135.4771434
+        },
+        {
+            "type": "node",
+            "id": 13087248255,
+            "lat": 34.7191991,
+            "lon": 135.4755245
+        },
+        {
+            "type": "node",
+            "id": 13087248256,
+            "lat": 34.7192663,
+            "lon": 135.4755158
+        },
+        {
+            "type": "node",
+            "id": 13092751541,
+            "lat": 34.7196216,
+            "lon": 135.4808637
+        },
+        {
+            "type": "node",
+            "id": 13092751542,
+            "lat": 34.7196327,
+            "lon": 135.4809362
+        },
+        {
+            "type": "node",
+            "id": 13092751543,
+            "lat": 34.7196197,
+            "lon": 135.4809245
+        },
+        {
+            "type": "node",
+            "id": 13092751544,
+            "lat": 34.7191935,
+            "lon": 135.4809770
+        },
+        {
+            "type": "node",
+            "id": 13092751545,
+            "lat": 34.7191783,
+            "lon": 135.4809993
+        },
+        {
+            "type": "node",
+            "id": 13092751546,
+            "lat": 34.7191651,
+            "lon": 135.4810010
+        },
+        {
+            "type": "node",
+            "id": 13092751547,
+            "lat": 34.7191611,
+            "lon": 135.4809259
+        },
+        {
+            "type": "node",
+            "id": 13092751548,
+            "lat": 34.7191771,
+            "lon": 135.4809241
+        },
+        {
+            "type": "node",
+            "id": 13092751549,
+            "lat": 34.7191930,
+            "lon": 135.4809411
+        },
+        {
+            "type": "node",
+            "id": 13092751550,
+            "lat": 34.7196083,
+            "lon": 135.4808829
+        },
+        {
+            "type": "node",
+            "id": 13093327101,
+            "lat": 34.7196849,
+            "lon": 135.4808134
+        },
+        {
+            "type": "node",
+            "id": 13093327102,
+            "lat": 34.7196207,
+            "lon": 135.4808269
+        },
+        {
+            "type": "node",
+            "id": 13093327103,
+            "lat": 34.7195001,
+            "lon": 135.4799464
+        },
+        {
+            "type": "node",
+            "id": 13093327104,
+            "lat": 34.7195578,
+            "lon": 135.4799376
+        }
+    ]
+}

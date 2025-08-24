@@ -21,7 +21,7 @@
         ],
         "initZoom": 16,
         "maxZoom": 21,
-        "detailZoom": 18.5, // モーダルダイアログ表示時のズームサイズ
+        "detailZoom": 18.5 // モーダルダイアログ表示時のズームサイズ
     },
     "minimap": { // 地球儀表示時の初期設定
         "use": false, // 地球儀利用時はtrue
@@ -54,17 +54,17 @@
         "normal": 0.6,
         "flag": 0.5,
         "textFont": [
-            "Noto Sans Bold"
+            "Noto Sans Regular"
         ], // 使用可能なフォント（spriteに依存）
         "textSize": 12,
-        "textViewZoom": 15 // アイコンに文字を表示するズームレベル
+        "textViewZoom": 16 // アイコンに文字を表示するズームレベル
     },
     "view": {
         "poiActLoad": true, // 起動時にActivityを読み込むか
-        "poiFilter": "", // listTable更新時 all:全て / filter:絞り込み / "":非連動
+        "poiFilter": "all", // listTable更新時 all:全て / filter:絞り込み / "":非連動
         "poiZoom": {
             // アイコンの前後位置は後ろの方が手前になる
-            "activity": 15,
+            "stores": 16,
             "十三元今里商店街": 15,
             "十三本町商店街": 15,
             "⼗三フレンドリー商店街": 15,
@@ -80,12 +80,13 @@
             "十三東三仲町通商店会": 15,
             "十三東本通商店街": 15,
             "木川本町商店街": 15,
-            "bicycle_rental": 15,
-            "green_area": 12
+            "bicycle_rental": 16.5,
+            "publicArt": 15,
+            "green_area": 13
         },
         "editZoom": {
             // 編集時に追加するpoiZoom
-            "activity": 15,
+            "stores": 16,
             "十三元今里商店街": 15,
             "十三本町商店街": 15,
             "⼗三フレンドリー商店街": 15,
@@ -101,8 +102,9 @@
             "十三東三仲町通商店会": 15,
             "十三東本通商店街": 15,
             "木川本町商店街": 15,
-            "bicycle_rental": 15,
-            "green_area": 12
+            "bicycle_rental": 16.5,
+            "publicArt": 15,
+            "green_area": 13
         }
     },
     "thumbnail": {
@@ -139,9 +141,10 @@
         "targetName": "activity"
     },
     "static": {
-        "use": false,
+        "use": true,
         "osmjsons": [
-            "./data/st_bicycle.jsonc",
+            "./data/st_artwork.jsonc",
+            "./data/st_bicycle_retail.jsonc",
             "./data/st_stores.jsonc",
             "./data/st_natural.jsonc"
         ]

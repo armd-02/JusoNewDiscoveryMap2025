@@ -66,10 +66,10 @@ class CMapMaker {
     viewArea() {			// Area(敷地など)を表示させる refタグがあれば()表記
         //console.log(`viewArea: Start.`)
         let targets = poiCont.getTargets()  //
+        console.log("viewArea: " + targets.join())
         targets.forEach((target) => {
             let osmConf = Conf.osm[target] == undefined ? { expression: { poiView: true } } : Conf.osm[target]
             if (!osmConf.expression.poiView) {   // poiView == falseが対象
-                //console.log("viewArea: " + target)
                 let pois = poiCont.getPois(target)
                 let titleTag = [
                     "format",
