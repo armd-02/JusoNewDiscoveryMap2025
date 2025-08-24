@@ -112,10 +112,11 @@ window.addEventListener("DOMContentLoaded", function () {
             winCont.menu_make(mergedMenu, "main_menu");
             winCont.mouseDragScroll(images, cMapMaker.eventViewThumb); // set Drag Scroll on images
             glot.render()
-            winCont.setSidebar()
+            winCont.setSidebar("")
 
             const init_close = function () {
                 let cat = (UrlParams.category !== "" && UrlParams.category !== undefined) ? UrlParams.category : Conf.selectItem.default;
+                cat = decodeURI(cat);
                 cMapMaker.updateView(cat).then(() => {     // 初期データロード
                     mapLibre.addCountryFlagsImage(poiCont.getAllOSMCountryCode())
                     cMapMaker.addEvents()
@@ -134,7 +135,7 @@ window.addEventListener("DOMContentLoaded", function () {
                         })
                     }
                 })
-            };
+            }
 
             poiCont.setActdata(results[0]); // gSheetをPoiContにセット(座標は無いのでOSM読み込み時にマッチング)
             if (Conf.view.poiActLoad) {

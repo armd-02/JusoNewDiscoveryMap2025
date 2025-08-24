@@ -68,26 +68,17 @@ class CMapMaker {
         let targets = poiCont.getTargets()  //
         console.log("viewArea: " + targets.join())
         targets.forEach((target) => {
-            let osmConf = Conf.osm[target] == undefined ? { expression: { poiView: true } } : Conf.osm[target]
-            if (!osmConf.expression.poiView) {   // poiView == falseが対象
+            let osmConf = Conf.osm[target] == undefined ? { expression: { viewArea: true } } : Conf.osm[target]
+            if (osmConf.expression.viewArea) {   // viewArea: trueが対象
                 let pois = poiCont.getPois(target)
-                let titleTag = [
-                    "format",
-                    ["case",
-                        ["all", ["has", "ref"], ["!=", ["get", "ref"], ""]],
-                        ["case",
-                            ["has", "local_ref"],
-                            ["concat",
-                                "(", ["get", "ref"], "/", ["get", "local_ref"], ") ",
-                                ["coalesce", ["get", "name"], ""]
-                            ],
-                            ["concat",
-                                "(", ["get", "ref"], ") ",
-                                ["coalesce", ["get", "name"], ""]
-                            ]
-                        ],
-                        ["coalesce", ["get", "name"], ""]
+                let titleTag = ["format", ["case",
+                    ["all", ["has", "ref"], ["!=", ["get", "ref"], ""]],
+                    ["case", ["has", "local_ref"],
+                        ["concat", "(", ["get", "ref"], "/", ["get", "local_ref"], ") ", ["coalesce", ["get", "name"], ""]],
+                        ["concat", "(", ["get", "ref"], ") ", ["coalesce", ["get", "name"], ""]]
                     ],
+                    ["coalesce", ["get", "name"], ""]
+                ],
                     {}
                 ];
                 mapLibre.addPolygon({ "type": "FeatureCollection", "features": pois.geojson }, target, titleTag)
@@ -137,13 +128,27 @@ class CMapMaker {
     makeImages(view) {
         if (view) {
             let LL = mapLibre.get_LL(true);
-            let acts = poiCont.adata.filter(act => { return geoCont.checkInner(act.lnglat, LL) && act.picture_url1 !== "" });
-            acts = acts.map(act => {
+            let nowZoom = mapLibre.getZoom()
+            let selectCategory = listTable.getSelCategory()[0]
+            //let nowViewTargets = Object.entries(Conf.view.poiZoom).filter(([key, value]) => value <= nowZoom).map(([key]) => key)
+            /*
+            if (selectCategory !== "") {   // カテゴリ指定時
+                nowViewTargets = nowViewTargets.indexOf(selectCategory) > -1 ? selectCategory : []
+            }
+            */
+            let acts = poiCont.adata.filter(act => geoCont.checkInner(act.lnglat, LL) && act.picture_url1 !== "");
+            acts = acts.filter(act => {
+                return act.category == selectCategory || selectCategory == ""
+                /*
+                let targets = poiCont.get_osmid(act.osmid).targets
+                return targets.some(el => nowViewTargets.includes(el))
+                */
+            }).map(act => {
                 let urls = []
                 let actname = act.id.split("/")[0]
                 let forms = Conf.activities[actname].form
                 for (const key of Object.keys(forms)) { // 複数あっても一つだけとする
-                    if (forms[key].type === "image_url") { urls.push(act[key]); break; }
+                    if (forms[key].type === "image_url") { urls.push(act[key]); break }
                 }
                 return { "src": urls, "osmid": act.osmid, "title": act.title }
             })
@@ -218,7 +223,6 @@ class CMapMaker {
                         this.viewArea()	        // 入手したgeoJsonを追加
                         this.viewPoi(targets)	// in targets
                         this.makeImages(Conf.thumbnail.use)
-                        console.log("updateView End.")
                         resolve({ "update": true })
                         break
                     default:
@@ -402,10 +406,7 @@ class CMapMaker {
             this.makeImages(false);                             // イメージリストを非表示
             return;
         }
-        cMapMaker.updateView().then(() => {
-            cMapMaker.moveMapBusy = false
-            console.log("eventMoveMap: End.")
-        })
+        cMapMaker.updateView().then(() => cMapMaker.moveMapBusy = false)
     }
 
     // EVENT: カテゴリ変更時のイベント
