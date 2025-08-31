@@ -99,6 +99,7 @@ window.addEventListener("DOMContentLoaded", function () {
             // MapLibre add control
             console.log("initialize: gSheet, static, MapLibre OK.");
             mapLibre.addControl("top-left", "baselist", basehtml, "mapLibre-control m-0 p-0"); // Make: base list
+            if (Conf.etc.localSave !== "") filter_menu.classList.remove('d-none')
             mapLibre.addNavigation("bottom-right");
             if (Conf.map.changeMap) mapLibre.addControl("bottom-right", "maplist", "<button onclick='cMapMaker.changeMap()'><i class='fas fa-layer-group fa-lg'></i></button>", "maplibregl-ctrl-group");
             mapLibre.addControl("bottom-right", "global_status", "", "text-information"); // Make: progress
